@@ -1,0 +1,7 @@
+~fastOptJS
+npm install source-map-support
+exit
+reload
+exit
+reload
+exit
