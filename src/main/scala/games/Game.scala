@@ -16,80 +16,59 @@ object ScalaJSExample {
                     .asInstanceOf[dom.CanvasRenderingContext2D]
 
     canvas.width = canvas.parentElement.clientWidth
-    canvas.height = canvas.parentElement.clientWidth
+    canvas.height = canvas.parentElement.clientHeight
 
     renderer.font = "50px sans-serif"
     renderer.textAlign = "center"
     renderer.textBaseline = "middle"
     
     /*Setup variables*/
-    var snakeLength = 2  // Starting length
+    var snakeLength = 10  // Starting length
+    var snakeBars = 1
+    // Starting Position
     var playerY = canvas.height / 2.0
     var playerX = canvas.width / 2.0
     var veloY = 0.0
     var veloX = 0.0
     var dead = 0
 
+    // List of each obstacle, storing only the Y position of the hole.
+    // The X position of the obstacle is calculated by its position in the
+    // queue and in the current frame.
+    val obstacles = collection.mutable.Queue.empty[Int]
+
     /*GAME LOGIC*/
 
-    def runLive(js.event) = {
+    def runLive() = {
       // create new obstacles 
-      if (frame >= 0 && frame % obstacleGap == 0) {
-        obstacles.enqueue(Random.nextInt(canvas.height - 2 * holeSize) + holeSize)
-      }
-      // if needed kill old
-      if(obstacles.length > 7) {
-        obstacles.dequeue()
-        frame -= obstacleGap
+      def createNew(): Unit = {
+        //obstacles.enqueue(Random.nextInt(canvas.height))
       }
 
       // move player
       playerY += veloY
       playerX += veloX
-      // set new velocit
-      val e = event.which || event.keyCode
+      
+      
+      // set background
+      renderer.fillStyle = "black"
 
-      // w-pressed
-      if (e == 119 || e == 87) {
-        veloY = -1
-      } // a pressed
-      else if (e == 65 || e == 97 ) {
-        veloX = -1
-      } // d pressed
-      else if (e == 100 || e == 68) {
-        veloX = 1
-      } // s pressed
-      else if (e == 115 || e == 83) {
-        veloY = 1
-      }
-
-      // set fillstyle
-      renderer.fillStyle = "darkblue"
-
-      // loopa
-      for((holeY, i) <- obstacles.zipWithIndex) {
-        // beräkna hole i X-led, beror på vilken frame
-        var holeX = i * obstacleGap - frame + canvas.width
-        // display each obstacles as 
-        renderer.fillRect(holeX, 0, 5, holeY - holeSize)
-        renderer.fillRect(holeX, holeY + holeSize, 5, canvas.height - holeY - holeSize)
-
-        // kill player
-        if(math.abs(holeX - canvas.width/2) < 5 && math.abs(holeY - playerY) > holeSize ) dead = 50
-      }
+      renderer.fillRect(0, 0, canvas.width, canvas.height)
 
       // render player
-      renderer.fillStyle = "darkgreen" 
-      // display the player as a 10 * 10 px rectangle
-      renderer.fillRect(canvas.width / 2 - 5, playerY - 5, 10, 10)
+      renderer.fillStyle = "yellow" 
+      // display the snake as a 3 * snakeLength px rectangle
+      renderer.fillRect(playerX, playerY, 3, snakeLength)
       // if out of bounds
       if (playerY < 0 || playerY > canvas.height) dead = 50
+      else if (playerX < 0 || playerY > canvas.width) dead = 50
     }
 
     def runDead() = {
-      playerY = canvas.height / 2
-      playerVelo = 0
-      frame = -50
+      playerY = canvas.height / 2.0
+      playerX = canvas.width / 2.0
+      veloY = 0
+      veloX = 0
       obstacles.clear()
       dead -= 1
       renderer.fillStyle = "darkred"
@@ -106,8 +85,20 @@ object ScalaJSExample {
     
     dom.window.setInterval(run _, 20)
 
-    canvas.onclick = (e: dom.MouseEvent) => {
-      playerVelo -= 5
+    canvas.onkeydown = (e: dom.KeyboardEvent) => {
+      // w-pressed
+      if (e == 119 || e == 87) {
+        veloY = -1
+      } // a pressed
+      else if (e == 65 || e == 97 ) {
+        veloX = -1
+      } // d pressed
+      else if (e == 100 || e == 68) {
+        veloX = 1
+      } // s pressed
+      else if (e == 115 || e == 83) {
+        veloY = 1
+      }
     }
   }
 }
