@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#games_sjs0.6_2.11;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18eec7a[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d445b2[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
@@ -48,54 +48,84 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1[0m
-[0m[[0mdebug[0m] [0m	found com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->master(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1[0m
-[0m[[0mdebug[0m] [0m	found com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\alexa\.ivy2\local\com.lihaoyi\scalatags_sjs0.6_2.11\0.6.2\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\alexa\.sbt\preloaded\com.lihaoyi\scalatags_sjs0.6_2.11\0.6.2\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/alexa/.sbt/preloaded/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom (0.6.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2!scalatags_sjs0.6_2.11.pom(pom.original) (219ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\alexa\.ivy2\local\com.lihaoyi\scalatags_sjs0.6_2.11\0.6.2\jars\scalatags_sjs0.6_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\alexa\.sbt\preloaded\com.lihaoyi\scalatags_sjs0.6_2.11\0.6.2\jars\scalatags_sjs0.6_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/alexa/.sbt/preloaded/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar[0m
+[0m[[0mdebug[0m] [0m	found com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\alexa\.ivy2\local\com.lihaoyi\sourcecode_sjs0.6_2.11\0.1.3\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\alexa\.sbt\preloaded\com.lihaoyi\sourcecode_sjs0.6_2.11\0.1.3\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/alexa/.sbt/preloaded/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom (0.1.3)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3!sourcecode_sjs0.6_2.11.pom(pom.original) (190ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\alexa\.ivy2\local\com.lihaoyi\sourcecode_sjs0.6_2.11\0.1.3\jars\sourcecode_sjs0.6_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\alexa\.sbt\preloaded\com.lihaoyi\sourcecode_sjs0.6_2.11\0.1.3\jars\sourcecode_sjs0.6_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/alexa/.sbt/preloaded/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar[0m
+[0m[[0mdebug[0m] [0m	found com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#games_sjs0.6_2.11;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#games_sjs0.6_2.11;0.1-SNAPSHOT [compile][0m
@@ -126,42 +156,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#games_sjs0.6_2.11;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#games_sjs0.6_2.11;0.1-SNAPSHOT [runtime][0m
@@ -193,42 +215,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-js#scalajs-test-interface_2.11;0.6.13 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-js#scalajs-test-interface_2.11;0.6.13 {test=[default(compile)]}[0m
@@ -280,42 +294,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#games_sjs0.6_2.11;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#games_sjs0.6_2.11;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -349,42 +355,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#games_sjs0.6_2.11;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#games_sjs0.6_2.11;0.1-SNAPSHOT [test-internal][0m
@@ -418,42 +416,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#games_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->compile][0m
@@ -694,8 +684,18 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-library_2.11;0.6.13!scalajs-library_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1!scalajs-dom_sjs0.6_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.lihaoyi#scalatags_sjs0.6_2.11;0.6.1!scalatags_sjs0.6_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.1!sourcecode_sjs0.6_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2!scalatags_sjs0.6_2.11.jar (531ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3!sourcecode_sjs0.6_2.11.jar (234ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.11;0.6.13!scalajs-test-interface_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.8;0.6.13!scalajs-compiler_2.11.8.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
@@ -710,7 +710,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 174ms :: artifacts dl 12ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2284ms :: artifacts dl 813ms[0m
 [0m[[0mdebug[0m] [0m	report for default#games_sjs0.6_2.11;0.1-SNAPSHOT compile produced in C:\Users\alexa\github\scala-tutorials\games\target\resolution-cache\reports\default-games_sjs0.6_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#games_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in C:\Users\alexa\github\scala-tutorials\games\target\resolution-cache\reports\default-games_sjs0.6_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#games_sjs0.6_2.11;0.1-SNAPSHOT test produced in C:\Users\alexa\github\scala-tutorials\games\target\resolution-cache\reports\default-games_sjs0.6_2.11-test.xml[0m
@@ -725,5 +725,5 @@
 [0m[[0mdebug[0m] [0m	report for default#games_sjs0.6_2.11;0.1-SNAPSHOT pom produced in C:\Users\alexa\github\scala-tutorials\games\target\resolution-cache\reports\default-games_sjs0.6_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#games_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\alexa\github\scala-tutorials\games\target\resolution-cache\reports\default-games_sjs0.6_2.11-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#games_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in C:\Users\alexa\github\scala-tutorials\games\target\resolution-cache\reports\default-games_sjs0.6_2.11-phantom-js-jetty.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (174ms resolve - 12ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2284ms resolve - 813ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -4,7 +4,7 @@
 		module="games_sjs0.6_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170612150758"
+		publication="20170613071449"
 	>
 		<description>
 		Games
@@ -41,6 +41,6 @@
 		<dependency org="org.scala-js" name="scalajs-library_2.11" rev="0.6.13" conf="compile->default(compile)"/>
 		<dependency org="org.scala-js" name="scalajs-test-interface_2.11" rev="0.6.13" conf="test->default(compile)"/>
 		<dependency org="org.scala-js" name="scalajs-dom_sjs0.6_2.11" rev="0.9.1" conf="compile->default(compile)"/>
-		<dependency org="com.lihaoyi" name="scalatags_sjs0.6_2.11" rev="0.6.1" conf="compile->default(compile)"/>
+		<dependency org="com.lihaoyi" name="scalatags_sjs0.6_2.11" rev="0.6.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
