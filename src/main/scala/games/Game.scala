@@ -1,4 +1,4 @@
-package example
+package games
 import scalajs.js
 import scala.scalajs.js.annotation.JSExport
 import org.scalajs.dom

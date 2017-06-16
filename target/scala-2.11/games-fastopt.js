@@ -1269,20 +1269,20 @@ function $s_scm_LinkedListLike$class__head__scm_LinkedListLike__O($$this) {
   }
 }
 /** @constructor */
-function $c_Lexample_ScalaJSExample$() {
+function $c_Lgames_ScalaJSExample$() {
   $c_O.call(this)
 }
-$c_Lexample_ScalaJSExample$.prototype = new $h_O();
-$c_Lexample_ScalaJSExample$.prototype.constructor = $c_Lexample_ScalaJSExample$;
+$c_Lgames_ScalaJSExample$.prototype = new $h_O();
+$c_Lgames_ScalaJSExample$.prototype.constructor = $c_Lgames_ScalaJSExample$;
 /** @constructor */
-function $h_Lexample_ScalaJSExample$() {
+function $h_Lgames_ScalaJSExample$() {
   /*<skip>*/
 }
-$h_Lexample_ScalaJSExample$.prototype = $c_Lexample_ScalaJSExample$.prototype;
-$c_Lexample_ScalaJSExample$.prototype.init___ = (function() {
+$h_Lgames_ScalaJSExample$.prototype = $c_Lgames_ScalaJSExample$.prototype;
+$c_Lgames_ScalaJSExample$.prototype.init___ = (function() {
   return this
 });
-$c_Lexample_ScalaJSExample$.prototype.main__Lorg_scalajs_dom_raw_HTMLCanvasElement__V = (function(canvas) {
+$c_Lgames_ScalaJSExample$.prototype.main__Lorg_scalajs_dom_raw_HTMLCanvasElement__V = (function(canvas) {
   var renderer = canvas.getContext("2d");
   canvas.width = $uI(canvas.parentElement.clientWidth);
   canvas.height = $uI(canvas.parentElement.clientHeight);
@@ -1301,7 +1301,7 @@ $c_Lexample_ScalaJSExample$.prototype.main__Lorg_scalajs_dom_raw_HTMLCanvasEleme
   var obstacles = $as_scm_Queue($as_sc_GenTraversable(this$7.newBuilder__scm_Builder().result__O()));
   $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().setInterval((function(canvas$1, renderer$1, snakeLength$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1, obstacles$1) {
     return (function() {
-      $m_Lexample_ScalaJSExample$().example$ScalaJSExample$$run$1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_IntRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__scm_Queue__V(canvas$1, renderer$1, snakeLength$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1, obstacles$1)
+      $m_Lgames_ScalaJSExample$().games$ScalaJSExample$$run$1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_IntRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__scm_Queue__V(canvas$1, renderer$1, snakeLength$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1, obstacles$1)
     })
   })(canvas, renderer, snakeLength, playerY, playerX, veloY, veloX, dead, obstacles), 20.0);
   canvas.onkeydown = (function(veloY$1$1, veloX$1$1) {
@@ -1318,10 +1318,18 @@ $c_Lexample_ScalaJSExample$.prototype.main__Lorg_scalajs_dom_raw_HTMLCanvasEleme
     })
   })(veloY, veloX)
 });
-$c_Lexample_ScalaJSExample$.prototype.$$js$exported$meth$main__Lorg_scalajs_dom_raw_HTMLCanvasElement__O = (function(canvas) {
+$c_Lgames_ScalaJSExample$.prototype.$$js$exported$meth$main__Lorg_scalajs_dom_raw_HTMLCanvasElement__O = (function(canvas) {
   this.main__Lorg_scalajs_dom_raw_HTMLCanvasElement__V(canvas)
 });
-$c_Lexample_ScalaJSExample$.prototype.runDead$1__p1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__scm_Queue__V = (function(canvas$1, renderer$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1, obstacles$1) {
+$c_Lgames_ScalaJSExample$.prototype.games$ScalaJSExample$$run$1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_IntRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__scm_Queue__V = (function(canvas$1, renderer$1, snakeLength$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1, obstacles$1) {
+  renderer$1.clearRect(0.0, 0.0, $uI(canvas$1.width), $uI(canvas$1.height));
+  if ((dead$1.elem$1 > 0)) {
+    this.runDead$1__p1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__scm_Queue__V(canvas$1, renderer$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1, obstacles$1)
+  } else {
+    this.runLive$1__p1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_IntRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__V(canvas$1, renderer$1, snakeLength$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1)
+  }
+});
+$c_Lgames_ScalaJSExample$.prototype.runDead$1__p1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__scm_Queue__V = (function(canvas$1, renderer$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1, obstacles$1) {
   playerY$1.elem$1 = ($uI(canvas$1.height) / 2.0);
   playerX$1.elem$1 = ($uI(canvas$1.width) / 2.0);
   veloY$1.elem$1 = 0.0;
@@ -1331,7 +1339,7 @@ $c_Lexample_ScalaJSExample$.prototype.runDead$1__p1__Lorg_scalajs_dom_raw_HTMLCa
   renderer$1.fillStyle = "darkred";
   renderer$1.fillText("Game Over", (($uI(canvas$1.width) / 2) | 0), (($uI(canvas$1.height) / 2) | 0))
 });
-$c_Lexample_ScalaJSExample$.prototype.runLive$1__p1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_IntRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__V = (function(canvas$1, renderer$1, snakeLength$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1) {
+$c_Lgames_ScalaJSExample$.prototype.runLive$1__p1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_IntRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__V = (function(canvas$1, renderer$1, snakeLength$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1) {
   playerY$1.elem$1 = (playerY$1.elem$1 + veloY$1.elem$1);
   playerX$1.elem$1 = (playerX$1.elem$1 + veloX$1.elem$1);
   renderer$1.fillStyle = "black";
@@ -1344,34 +1352,26 @@ $c_Lexample_ScalaJSExample$.prototype.runLive$1__p1__Lorg_scalajs_dom_raw_HTMLCa
     dead$1.elem$1 = 50
   }
 });
-$c_Lexample_ScalaJSExample$.prototype.example$ScalaJSExample$$run$1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_IntRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__scm_Queue__V = (function(canvas$1, renderer$1, snakeLength$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1, obstacles$1) {
-  renderer$1.clearRect(0.0, 0.0, $uI(canvas$1.width), $uI(canvas$1.height));
-  if ((dead$1.elem$1 > 0)) {
-    this.runDead$1__p1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__scm_Queue__V(canvas$1, renderer$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1, obstacles$1)
-  } else {
-    this.runLive$1__p1__Lorg_scalajs_dom_raw_HTMLCanvasElement__Lorg_scalajs_dom_raw_CanvasRenderingContext2D__sr_IntRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_DoubleRef__sr_IntRef__V(canvas$1, renderer$1, snakeLength$1, playerY$1, playerX$1, veloY$1, veloX$1, dead$1)
-  }
-});
-$c_Lexample_ScalaJSExample$.prototype.main = (function(arg$1) {
+$c_Lgames_ScalaJSExample$.prototype.main = (function(arg$1) {
   var prep0 = arg$1;
   return this.$$js$exported$meth$main__Lorg_scalajs_dom_raw_HTMLCanvasElement__O(prep0)
 });
-var $d_Lexample_ScalaJSExample$ = new $TypeData().initClass({
-  Lexample_ScalaJSExample$: 0
-}, false, "example.ScalaJSExample$", {
-  Lexample_ScalaJSExample$: 1,
+var $d_Lgames_ScalaJSExample$ = new $TypeData().initClass({
+  Lgames_ScalaJSExample$: 0
+}, false, "games.ScalaJSExample$", {
+  Lgames_ScalaJSExample$: 1,
   O: 1
 });
-$c_Lexample_ScalaJSExample$.prototype.$classData = $d_Lexample_ScalaJSExample$;
-var $n_Lexample_ScalaJSExample$ = (void 0);
-function $m_Lexample_ScalaJSExample$() {
-  if ((!$n_Lexample_ScalaJSExample$)) {
-    $n_Lexample_ScalaJSExample$ = new $c_Lexample_ScalaJSExample$().init___()
+$c_Lgames_ScalaJSExample$.prototype.$classData = $d_Lgames_ScalaJSExample$;
+var $n_Lgames_ScalaJSExample$ = (void 0);
+function $m_Lgames_ScalaJSExample$() {
+  if ((!$n_Lgames_ScalaJSExample$)) {
+    $n_Lgames_ScalaJSExample$ = new $c_Lgames_ScalaJSExample$().init___()
   };
-  return $n_Lexample_ScalaJSExample$
+  return $n_Lgames_ScalaJSExample$
 }
-$e.example = ($e.example || {});
-$e.example.ScalaJSExample = $m_Lexample_ScalaJSExample$;
+$e.games = ($e.games || {});
+$e.games.ScalaJSExample = $m_Lgames_ScalaJSExample$;
 /** @constructor */
 function $c_Lorg_scalajs_dom_package$() {
   $c_O.call(this);
