@@ -1,3 +1,5 @@
+/*build.sbt*/
+
 val app = crossProject.settings(
   unmanagedSourceDirectories in Compile +=
     baseDirectory.value  / "shared" / "main" / "scala",
@@ -11,6 +13,7 @@ val app = crossProject.settings(
     "org.scala-js" %%% "scalajs-dom" % "0.9.1"
   )
 ).jvmSettings(
+
   libraryDependencies ++= Seq(
     "com.typesafe.akka" %% "akka-http-experimental" % "2.4.11",
     "com.typesafe.akka" %% "akka-actor" % "2.4.12",

@@ -4,7 +4,7 @@
 		module="app$sources_sjs0.6_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170619150510"
+		publication="20170619154923"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

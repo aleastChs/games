@@ -5,3 +5,11 @@ reload
 exit
 reload
 exit
+reload
+fastOptJS
+evicted
+exit
+appJVM/reStart
+appJVM/re-start
+appJVM/reStart
+exit
