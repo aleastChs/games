@@ -19,22 +19,49 @@ object Game extends{
       placeholder:="Type here!"
     ).render
 
-    val output = span.render
+
+    val listings = Seq(
+      "Apple", "Apricot", "Banana", "Cherry",
+      "Mango", "Mangosteen", "Mandarin",
+      "Grape", "Grapefruit", "Guava"
+    )
+
+    def renderListings = ul(
+      for {
+        fruit <- listings
+        if fruit.toLowerCase.startsWith(
+          box.value.toLowerCase
+        )
+      } yield {
+        val (first, last) = fruit.splitAt(
+          box.value.length
+        )
+        li(
+          span(
+            backgroundColor:="yellow",
+            first
+          ),
+          last
+        )
+      }
+    ).render
+
+    val output = div(renderListings).render
 
     box.onkeyup = (e: dom.Event) => {
-      output.textContent =
-        box.value.toUpperCase
+      output.innerHTML = ""
+      output.appendChild(renderListings)
     }
 
     target.appendChild(
       div(
-        h1("Capital Box!"),
+        h1("Search Box!"),
         p(
-          "Type here and " +
-            "have it capitalized!"
+          "Type here to filter " +
+            "the list of things below!"
         ),
         div(box),
-        div(output)
+        output
       ).render
     )
   }

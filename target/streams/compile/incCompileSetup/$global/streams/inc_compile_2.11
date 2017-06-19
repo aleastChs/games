@@ -20,7 +20,9 @@ name hashing:
 1 items
 0 -> true
 products:
-3 items
+5 items
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$games$Game$$renderListings$1$1.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$games$Game$$renderListings$1$2.class
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$main$1.class
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$.class
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game.class
@@ -48,12 +50,15 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-3 items
+5 items
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games.Game
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games.Game$
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games.Game$$anonfun$games$Game$$renderListings$1$1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games.Game$$anonfun$games$Game$$renderListings$1$2
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games.Game$$anonfun$main$1
 used names:
-43 items
+67 items
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> $conforms
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> :=
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> <init>
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> Any
@@ -63,21 +68,38 @@ C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> E
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> Game
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> JSExport
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> JsDom
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> Predef
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> Random
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> Seq
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> _1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> _2
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> all
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> annotation
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> appendChild
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> apply
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> augmentString
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> backgroundColor
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> box
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> canBuildFrom
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> collection
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> div
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> dom
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> first
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> fromFunction1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> fruit
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> h1
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> html
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> innerHTML_=
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> input
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> js
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> last
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> length
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> li
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> listings
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> main
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> map
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> ne
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> onkeyup_=
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> org
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> output
@@ -85,26 +107,34 @@ C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> p
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> package
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> placeholder
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> render
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> renderListings
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> scala
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> scalajs
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> scalatags
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> span
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> splitAt
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> startsWith
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> stringAttr
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> stringFrag
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> stringStyle
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> target
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> textContent_=
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> toUpperCase
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> toLowerCase
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> type
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> ul
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> unchecked
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> util
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> value
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> withFilter
 product stamps:
-3 items
-C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$main$1.class -> lastModified(1497869834881)
-C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$.class -> lastModified(1497869834873)
-C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game.class -> lastModified(1497869834833)
+5 items
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$games$Game$$renderListings$1$1.class -> lastModified(1497871716108)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$games$Game$$renderListings$1$2.class -> lastModified(1497871716112)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$main$1.class -> lastModified(1497871716116)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$.class -> lastModified(1497871716100)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game.class -> lastModified(1497871716092)
 source stamps:
 1 items
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> hash(65a4bb880d46086e864dd65550ef90a06d98e41b)
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> hash(edb3c22c70b0cfe6d4306e6118753d83820e0cb2)
 binary stamps:
 5 items
 C:\Program Files (x86)\Java\jre1.8.0_131\lib\rt.jar -> lastModified(1496947520191)
@@ -116,13 +146,13 @@ class names:
 5 items
 C:\Program Files (x86)\Java\jre1.8.0_131\lib\rt.jar -> java.lang.Object
 C:\Users\alexa\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.11\jars\scalatags_sjs0.6_2.11-0.6.2.jar -> scalatags.LowPriorityImplicits
-C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\jars\scalajs-dom_sjs0.6_2.11-0.9.1.jar -> org.scalajs.dom.raw.Node
-C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.13.jar -> scala.scalajs.js.annotation.JSExport
-C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> scala.Unit
+C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\jars\scalajs-dom_sjs0.6_2.11-0.9.1.jar -> org.scalajs.dom.raw.HTMLLIElement
+C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.13.jar -> scala.scalajs.js.Any$
+C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> scala.Predef$
 internal apis:
 1 items
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDPLt2CAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOymaLd0AAZub3RpZnlzcQB+AAywiajwdAAEd2FpdHNxAH4ADJfZfMB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMen5uvHQABmVxdWFsc3NxAH4ADPBnuKx0AAxhc0luc3RhbmNlT2ZzcQB+AAxYKK6cdAAMc3luY2hyb25pemVkc3EAfgAMc37emHQADSRpc0luc3RhbmNlT2ZzcQB+AAy9+qjpdAAEbWFpbnNxAH4ADJgZUQV0AAlub3RpZnlBbGxzcQB+AAy6OvHqdAAMaXNJbnN0YW5jZU9mc3EAfgAMAkH0H3QABEdhbWVzcQB+AAyjTR4gdAACPT1zcQB+AAwVAl+idAAFY2xvbmVzcQB+AAwuNe2qdAAIdG9TdHJpbmdzcQB+AAywnYhjdAACIT1zcQB+AAzYvVs6dAAIZ2V0Q2xhc3NzcQB+AAwjFMKVdAACbmVzcQB+AAwa0xLDdAACZXFzcQB+AAwI1Dw2dAAWJGpzJGV4cG9ydGVkJG1ldGgkbWFpbnNxAH4ADDF3HIp0AAIjI3NxAH4ADGTrCQF0AAhmaW5hbGl6ZXNxAH4ADOExWzd0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNldAAQTHhzYnRpL2FwaS9UeXBlO3hwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AA1MAAV2YWx1ZXEAfgANeHB0AAB0AAIoKXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHB0AAhKU0V4cG9ydHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABXNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcQB+AGh0AAdzY2FsYWpzc3EAfgBodAACanNzcQB+AGh0AAphbm5vdGF0aW9uc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AGlzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AApnYW1lcy5HYW1ldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAJHNjYWxhLnNjYWxhanMuanMuYW5ub3RhdGlvbi5KU0V4cG9ydHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AgXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhxAH4AXHNxAH4AgABwc3EAfgCFc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AXXNxAH4AgABwc3EAfgCFdXEAfgA+AAAAAHNxAH4AgABwc3EAfgCFdXEAfgA+AAAAAHNxAH4AgABwc3EAfgCFdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcQB+AFp0AAZPYmplY3RzcQB+AGBzcQB+AGN1cQB+AGYAAAADc3EAfgBodAAEamF2YXNxAH4AaHQABGxhbmdxAH4Ac3NxAH4AWnQAA0FueXNxAH4AYHNxAH4AY3VxAH4AZgAAAAJzcQB+AGhxAH4Aa3EAfgBzdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAFZ2FtZXNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVy//8rjdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFGWku4gNRghuhk3WVVDvkKBtmOQb
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDPLt2CAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOymaLd0AAZub3RpZnlzcQB+AAywiajwdAAEd2FpdHNxAH4ADJfZfMB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMen5uvHQABmVxdWFsc3NxAH4ADPBnuKx0AAxhc0luc3RhbmNlT2ZzcQB+AAxYKK6cdAAMc3luY2hyb25pemVkc3EAfgAMc37emHQADSRpc0luc3RhbmNlT2ZzcQB+AAy9+qjpdAAEbWFpbnNxAH4ADJgZUQV0AAlub3RpZnlBbGxzcQB+AAy6OvHqdAAMaXNJbnN0YW5jZU9mc3EAfgAMAkH0H3QABEdhbWVzcQB+AAyjTR4gdAACPT1zcQB+AAwVAl+idAAFY2xvbmVzcQB+AAwuNe2qdAAIdG9TdHJpbmdzcQB+AAywnYhjdAACIT1zcQB+AAzYvVs6dAAIZ2V0Q2xhc3NzcQB+AAwjFMKVdAACbmVzcQB+AAwa0xLDdAACZXFzcQB+AAwI1Dw2dAAWJGpzJGV4cG9ydGVkJG1ldGgkbWFpbnNxAH4ADDF3HIp0AAIjI3NxAH4ADGTrCQF0AAhmaW5hbGl6ZXNxAH4ADOExWzd0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNldAAQTHhzYnRpL2FwaS9UeXBlO3hwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AA1MAAV2YWx1ZXEAfgANeHB0AAB0AAIoKXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHB0AAhKU0V4cG9ydHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABXNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcQB+AGh0AAdzY2FsYWpzc3EAfgBodAACanNzcQB+AGh0AAphbm5vdGF0aW9uc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AGlzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AApnYW1lcy5HYW1ldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAJHNjYWxhLnNjYWxhanMuanMuYW5ub3RhdGlvbi5KU0V4cG9ydHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cQB+AFxwc3EAfgCAAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AF1zcQB+AIABdXEAfgA+AAAAAHBzcQB+AIABdXEAfgA+AAAAAHBzcQB+AIABdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcQB+AFp0AAZPYmplY3RzcQB+AGBzcQB+AGN1cQB+AGYAAAADc3EAfgBodAAEamF2YXNxAH4AaHQABGxhbmdxAH4Ac3NxAH4AWnQAA0FueXNxAH4AYHNxAH4AY3VxAH4AZgAAAAJzcQB+AGhxAH4Aa3EAfgBzcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAVnYW1lc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXMAcicd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABFQzpcVXNlcnNcYWxleGFcZ2l0aHViXHNjYWxhLXR1dG9yaWFsc1xnYW1lc1x0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU7bPCLHCwz+bUMG5hGHU9g4IODLI=
 external apis:
 0 items
 source infos:
@@ -130,7 +160,7 @@ source infos:
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> 
 AAAAAAAAAAA=
 compilations:
-12 items
+17 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXJxrBf91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXKVOBVV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXKVPMft1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
@@ -143,3 +173,8 @@ compilations:
 09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXKVXOvd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
 10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLB5mDJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
 11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXL//yuN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXMAWJUF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXMAXUPN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXMAYk2R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXMAYyyh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXMAcicd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
