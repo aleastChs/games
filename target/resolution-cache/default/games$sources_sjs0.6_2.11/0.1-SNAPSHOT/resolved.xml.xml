@@ -4,7 +4,7 @@
 		module="games$sources_sjs0.6_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170614110144"
+		publication="20170619120534"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
