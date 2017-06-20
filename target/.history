@@ -5,3 +5,7 @@ reload
 exit
 reload
 exit
+compile
+run
+fastOptJS
+exit

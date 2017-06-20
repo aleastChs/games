@@ -1,4 +1,4 @@
-package example
+package games
 import scalajs.js
 import scala.scalajs.js.annotation.JSExport
 import org.scalajs.dom
@@ -8,7 +8,7 @@ import scala.util.Random
 
 
 @JSExport
-object ScalaJSExample {
+object Game {
   @JSExport
   def main(canvas: html.Canvas): Unit = {
     // setup

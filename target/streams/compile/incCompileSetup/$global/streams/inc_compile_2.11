@@ -7,12 +7,12 @@ output directories:
 output dir -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes
 compile options:
 1 items
-0 -> -Xplugin:C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-compiler_2.11.8\jars\scalajs-compiler_2.11.8-0.6.13.jar
+0 -> -Xplugin:C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-compiler_2.11.4\jars\scalajs-compiler_2.11.4-0.6.13.jar
 javac options:
 0 items
 compiler version:
 1 items
-0 -> 2.11.8
+0 -> 2.11.4
 compile order:
 1 items
 0 -> Mixed
@@ -20,19 +20,45 @@ name hashing:
 1 items
 0 -> true
 products:
-6 items
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$main$1.class
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$main$2.class
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$runLive$1$1.class
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$runLive$1$2.class
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample$.class
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample.class
+26 items
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$1.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$2$$anonfun$apply$mcI$sp$1.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$2.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$3$$anonfun$apply$mcD$sp$1.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$3.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$4.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$5.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$6$$anonfun$apply$3.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$6.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main$1$$anonfun$apply$1.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main$1.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main$2.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main$3.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main$4.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main2$1$$anonfun$apply$2.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main2$1.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main2$2.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$rxFrag$1.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$main$1.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$main$2.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$runLive$1$1.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$runLive$1$2.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$.class
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game.class
 binary dependencies:
-4 items
+10 items
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Program Files (x86)\Java\jre1.8.0_131\lib\rt.jar
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\.ivy2\cache\com.lihaoyi\scalarx_sjs0.6_2.11\jars\scalarx_sjs0.6_2.11-0.2.8.jar
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.11\jars\scalatags_sjs0.6_2.11-0.6.2.jar
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\jars\scalajs-dom_sjs0.6_2.11-0.9.1.jar
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.13.jar
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Program Files (x86)\Java\jre1.8.0_131\lib\rt.jar
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\jars\scalajs-dom_sjs0.6_2.11-0.9.1.jar
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.13.jar
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -50,15 +76,130 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-6 items
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> example.ScalaJSExample
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> example.ScalaJSExample$
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> example.ScalaJSExample$$anonfun$main$1
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> example.ScalaJSExample$$anonfun$main$2
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> example.ScalaJSExample$$anonfun$runLive$1$1
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> example.ScalaJSExample$$anonfun$runLive$1$2
+26 items
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$2
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$2$$anonfun$apply$mcI$sp$1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$3
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$3$$anonfun$apply$mcD$sp$1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$4
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$5
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$6
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$6$$anonfun$apply$3
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$main$1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$main$1$$anonfun$apply$1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$main$2
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$main$3
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$main$4
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$main2$1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$main2$1$$anonfun$apply$2
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$main2$2
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced.BasicRx$$anonfun$rxFrag$1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games.Game
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games.Game$
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games.Game$$anonfun$main$1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games.Game$$anonfun$main$2
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games.Game$$anonfun$runLive$1$1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games.Game$$anonfun$runLive$1$2
 used names:
-90 items
+185 items
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> !=
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> $conforms
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> *
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> /
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> :=
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> <init>
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> >
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Any
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> AnyRef
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> BasicRx
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Div
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Dynamic
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Event
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Frag
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Function1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Immediate
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> JSExport
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> JsDom
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Node
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Obs
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Predef
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Propagator
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Rx
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Seq
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> T
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> Var
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> _root_
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> advanced
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> all
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> annotation
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> appendChild
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> apply
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> augmentString
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> avgWordLength
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> canBuildFrom
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> collection
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> container
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> core
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> count
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> display
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> div
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> dom
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> doubleFrag
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> filter
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> fragments
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> fromFunction1
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> fruit
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> fruits
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> global
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> html
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> input
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> intFrag
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> js
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> last
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> length
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> li
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> main
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> main2
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> map
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> newLast
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> numChars
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> numWords
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> onkeyup_=
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> org
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> package
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> parentNode
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> query
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> r
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> rSafe
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> refArrayOps
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> render
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> replaceChild
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> rx
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> rxFrag
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> scala
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> scalajs
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> scalatags
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> shown
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> span
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> split
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> startsWith
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> stringFrag
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> stringStyle
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> textarea
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> toLowerCase
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> txt
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> txtInput
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> ul
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> update
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> updateDynamic
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> value
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> x$3
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> x$4
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> x$5
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> x$6
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> %
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> &&
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> *
@@ -74,12 +215,12 @@ C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> A
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> AnyRef
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> Canvas
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> CanvasRenderingContext2D
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> Game
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> Int
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> JSExport
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> MouseEvent
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> Queue
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> Random
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> ScalaJSExample
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> Unit
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> _1
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> _2
@@ -97,7 +238,6 @@ C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> d
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> dom
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> empty
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> enqueue
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> example
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> fillRect
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> fillStyle_=
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> fillText
@@ -107,6 +247,7 @@ C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> f
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> fromFunction0
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> fromFunction1
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> fromString
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> games
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> getContext
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> gravity
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> height
@@ -150,38 +291,68 @@ C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> w
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> zipWithIndex
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> ||
 product stamps:
-6 items
-C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$main$1.class -> lastModified(1497272881602)
-C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$main$2.class -> lastModified(1497272881602)
-C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$runLive$1$1.class -> lastModified(1497272881602)
-C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$runLive$1$2.class -> lastModified(1497272881617)
-C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample$.class -> lastModified(1497272881586)
-C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\example\ScalaJSExample.class -> lastModified(1497272881555)
+26 items
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$1.class -> lastModified(1497942245890)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$2$$anonfun$apply$mcI$sp$1.class -> lastModified(1497942245937)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$2.class -> lastModified(1497942245906)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$3$$anonfun$apply$mcD$sp$1.class -> lastModified(1497942245937)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$3.class -> lastModified(1497942245937)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$4.class -> lastModified(1497942245953)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$5.class -> lastModified(1497942245953)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$6$$anonfun$apply$3.class -> lastModified(1497942245953)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$6.class -> lastModified(1497942245953)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main$1$$anonfun$apply$1.class -> lastModified(1497942245953)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main$1.class -> lastModified(1497942245953)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main$2.class -> lastModified(1497942245953)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main$3.class -> lastModified(1497942245968)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main$4.class -> lastModified(1497942245968)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main2$1$$anonfun$apply$2.class -> lastModified(1497942245968)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main2$1.class -> lastModified(1497942245968)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$main2$2.class -> lastModified(1497942245968)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$$anonfun$rxFrag$1.class -> lastModified(1497942245968)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx$.class -> lastModified(1497942245890)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\advanced\BasicRx.class -> lastModified(1497942245890)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$main$1.class -> lastModified(1497942245984)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$main$2.class -> lastModified(1497942245984)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$runLive$1$1.class -> lastModified(1497942246000)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$$anonfun$runLive$1$2.class -> lastModified(1497942246000)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game$.class -> lastModified(1497942245984)
+C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\classes\games\Game.class -> lastModified(1497942245984)
 source stamps:
-1 items
-C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> hash(65a148ccad738dc0284e915a9b42ec72cbefa4c0)
+2 items
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> hash(7229d22dc6ce13316bd86eab8a2f3c8af35795f4)
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> hash(4c1e78c6d1323406c51dbddc99b27aa76f476ace)
 binary stamps:
-4 items
+6 items
 C:\Program Files (x86)\Java\jre1.8.0_131\lib\rt.jar -> lastModified(1496947520191)
+C:\Users\alexa\.ivy2\cache\com.lihaoyi\scalarx_sjs0.6_2.11\jars\scalarx_sjs0.6_2.11-0.2.8.jar -> lastModified(1425865498000)
+C:\Users\alexa\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.11\jars\scalatags_sjs0.6_2.11-0.6.2.jar -> lastModified(1477129330000)
 C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\jars\scalajs-dom_sjs0.6_2.11-0.9.1.jar -> lastModified(1465764499000)
 C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.13.jar -> lastModified(1476396254000)
-C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> lastModified(1457105192000)
+C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar -> lastModified(1414078488000)
 class names:
-4 items
+6 items
 C:\Program Files (x86)\Java\jre1.8.0_131\lib\rt.jar -> java.lang.Object
-C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\jars\scalajs-dom_sjs0.6_2.11-0.9.1.jar -> org.scalajs.dom.raw.CanvasRenderingContext2D
+C:\Users\alexa\.ivy2\cache\com.lihaoyi\scalarx_sjs0.6_2.11\jars\scalarx_sjs0.6_2.11-0.2.8.jar -> rx.core.Obs$
+C:\Users\alexa\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.11\jars\scalatags_sjs0.6_2.11-0.6.2.jar -> scalatags.generic.Frag
+C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\jars\scalajs-dom_sjs0.6_2.11-0.9.1.jar -> org.scalajs.dom.raw.WindowTimers
 C:\Users\alexa\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.13.jar -> scala.scalajs.js.annotation.JSExport
-C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> scala.Double
+C:\Users\alexa\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar -> scala.collection.mutable.MutableList
 internal apis:
-1 items
+2 items
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDrHMWQAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAABc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwk31g2nQABnJ4RnJhZ3VxAH4ACQAAABhzcQB+AAuZRoA7dAAGbm90aWZ5c3EAfgALbZ4zynQABHdhaXRzcQB+AAunrtRAdAANJGFzSW5zdGFuY2VPZnNxAH4AC0KxFFh0AAZlcXVhbHNzcQB+AAsFrMV8dAAFbWFpbjJzcQB+AAv0bllMdAAMYXNJbnN0YW5jZU9mc3EAfgALttj/1nQADHN5bmNocm9uaXplZHNxAH4ACwp3/Q10AA0kaXNJbnN0YW5jZU9mc3EAfgAL4G0tY3QABG1haW5zcQB+AAu3BNuUdAAHQmFzaWNSeHNxAH4AC3SaRAR0AAlub3RpZnlBbGxzcQB+AAsZwlPIdAAMaXNJbnN0YW5jZU9mc3EAfgALq3aPInQAAj09c3EAfgALo5PBNnQABWNsb25lc3EAfgALupX+LXQACHRvU3RyaW5nc3EAfgALP938Q3QAAiE9c3EAfgALObMrE3QAFyRqcyRleHBvcnRlZCRtZXRoJG1haW4yc3EAfgALz1SlcHQACGdldENsYXNzc3EAfgALDjHzuHQAAm5lc3EAfgALqzK0hXQAAmVxc3EAfgALq6Gyy3QAFiRqcyRleHBvcnRlZCRtZXRoJG1haW5zcQB+AAvofASwdAACIyNzcQB+AAtwK6e9dAAIZmluYWxpemVzcQB+AAvdfW1wdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBJeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAABc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXQAEEx4c2J0aS9hcGkvVHlwZTt4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgAMTAAFdmFsdWVxAH4ADHhwdAAAdAACKClzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwdAAISlNFeHBvcnRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAVzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3EAfgBudAAHc2NhbGFqc3NxAH4AbnQAAmpzc3EAfgBudAAKYW5ub3RhdGlvbnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBvc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAQYWR2YW5jZWQuQmFzaWNSeHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ACRzY2FsYS5zY2FsYWpzLmpzLmFubm90YXRpb24uSlNFeHBvcnRzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AId4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cQB+AGJzcQB+AIYAcHNxAH4Ai3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBJTAAJaW5oZXJpdGVkcQB+AElMAAdwYXJlbnRzcQB+AEl4cQB+AGNzcQB+AIYAcHNxAH4Ai3VxAH4ARAAAAABzcQB+AIYAcHNxAH4Ai3VxAH4ARAAAAABzcQB+AIYAcHNxAH4Ai3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3EAfgBgdAAGT2JqZWN0c3EAfgBmc3EAfgBpdXEAfgBsAAAAA3NxAH4AbnQABGphdmFzcQB+AG50AARsYW5ncQB+AHlzcQB+AGB0AANBbnlzcQB+AGZzcQB+AGl1cQB+AGwAAAACc3EAfgBucQB+AHFxAH4AeXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQACGFkdmFuY2Vkc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcxFCcKXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AEVDOlxVc2Vyc1xhbGV4YVxnaXRodWJcc2NhbGEtdHV0b3JpYWxzXGdhbWVzXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRyKdItxs4TMWvYbquKLzyK81eV9A==
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCkd1AiAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cFw2IJZ0AAZub3RpZnlzcQB+AAyomlQddAAEd2FpdHNxAH4ADPiQvcd0AA0kYXNJbnN0YW5jZU9mc3EAfgAM77aD1nQABmVxdWFsc3NxAH4ADPZvBEJ0AA5TY2FsYUpTRXhhbXBsZXNxAH4ADIQ54Vh0AAxhc0luc3RhbmNlT2ZzcQB+AAyOouCydAAMc3luY2hyb25pemVkc3EAfgAMU37OoXQADSRpc0luc3RhbmNlT2ZzcQB+AAxtZsaFdAAEbWFpbnNxAH4ADLD+2D10AAlub3RpZnlBbGxzcQB+AAwedH3YdAAMaXNJbnN0YW5jZU9mc3EAfgAMHzOIxnQAAj09c3EAfgAMTji/XnQABWNsb25lc3EAfgAMVYP7m3QACHRvU3RyaW5nc3EAfgAMn4YNEXQAAiE9c3EAfgAM5NVC73QACGdldENsYXNzc3EAfgAM3FOUt3QAAm5lc3EAfgAM2LP1FnQAAmVxc3EAfgAMruJvB3QAFiRqcyRleHBvcnRlZCRtZXRoJG1haW5zcQB+AAwdWH2CdAACIyNzcQB+AAxLCxFCdAAIZmluYWxpemVzcQB+AAwoWtYQdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAABc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXQAEEx4c2J0aS9hcGkvVHlwZTt4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAAdAACKClzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwdAAISlNFeHBvcnRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AFxzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAVzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3EAfgBodAAHc2NhbGFqc3NxAH4AaHQAAmpzc3EAfgBodAAKYW5ub3RhdGlvbnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBpc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAWZXhhbXBsZS5TY2FsYUpTRXhhbXBsZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ACRzY2FsYS5zY2FsYWpzLmpzLmFubm90YXRpb24uSlNFeHBvcnRzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIF4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cQB+AFxzcQB+AIAAcHNxAH4AhXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AF1zcQB+AIAAcHNxAH4AhXVxAH4APgAAAABzcQB+AIAAcHNxAH4AhXVxAH4APgAAAABzcQB+AIAAcHNxAH4AhXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3EAfgBadAAGT2JqZWN0c3EAfgBgc3EAfgBjdXEAfgBmAAAAA3NxAH4AaHQABGphdmFzcQB+AGh0AARsYW5ncQB+AHNzcQB+AFp0AANBbnlzcQB+AGBzcQB+AGN1cQB+AGYAAAACc3EAfgBocQB+AGtxAH4Ac3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAB2V4YW1wbGVzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVycawX/dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFGWhSMytc43AKE6RWptC7HLL76TA
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCWHI7iAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOymaLd0AAZub3RpZnlzcQB+AAywiajwdAAEd2FpdHNxAH4ADJfZfMB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMen5uvHQABmVxdWFsc3NxAH4ADPBnuKx0AAxhc0luc3RhbmNlT2ZzcQB+AAxYKK6cdAAMc3luY2hyb25pemVkc3EAfgAMc37emHQADSRpc0luc3RhbmNlT2ZzcQB+AAwWE4ZddAAEbWFpbnNxAH4ADJgZUQV0AAlub3RpZnlBbGxzcQB+AAy6OvHqdAAMaXNJbnN0YW5jZU9mc3EAfgAMAkH0H3QABEdhbWVzcQB+AAyjTR4gdAACPT1zcQB+AAwVAl+idAAFY2xvbmVzcQB+AAwuNe2qdAAIdG9TdHJpbmdzcQB+AAywnYhjdAACIT1zcQB+AAzYvVs6dAAIZ2V0Q2xhc3NzcQB+AAwjFMKVdAACbmVzcQB+AAwa0xLDdAACZXFzcQB+AAwzMgFkdAAWJGpzJGV4cG9ydGVkJG1ldGgkbWFpbnNxAH4ADDF3HIp0AAIjI3NxAH4ADGTrCQF0AAhmaW5hbGl6ZXNxAH4ADOExWzd0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNldAAQTHhzYnRpL2FwaS9UeXBlO3hwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AA1MAAV2YWx1ZXEAfgANeHB0AAB0AAIoKXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHB0AAhKU0V4cG9ydHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABXNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcQB+AGh0AAdzY2FsYWpzc3EAfgBodAACanNzcQB+AGh0AAphbm5vdGF0aW9uc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AGlzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AApnYW1lcy5HYW1ldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAJHNjYWxhLnNjYWxhanMuanMuYW5ub3RhdGlvbi5KU0V4cG9ydHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AgXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhxAH4AXHNxAH4AgABwc3EAfgCFc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AXXNxAH4AgABwc3EAfgCFdXEAfgA+AAAAAHNxAH4AgABwc3EAfgCFdXEAfgA+AAAAAHNxAH4AgABwc3EAfgCFdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcQB+AFp0AAZPYmplY3RzcQB+AGBzcQB+AGN1cQB+AGYAAAADc3EAfgBodAAEamF2YXNxAH4AaHQABGxhbmdxAH4Ac3NxAH4AWnQAA0FueXNxAH4AYHNxAH4AY3VxAH4AZgAAAAJzcQB+AGhxAH4Aa3EAfgBzdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAFZ2FtZXNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVzEUJwpdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFEweeMbRMjQGxR293JmyeqdvR2rO
 external apis:
 0 items
 source infos:
-1 items
+2 items
+C:\Users\alexa\github\scala-tutorials\games\src\main\scala\advanced\BasicRx.scala -> 
+AAAAAAAAAAA=
 C:\Users\alexa\github\scala-tutorials\games\src\main\scala\games\Game.scala -> 
 AAAAAAAAAAA=
 compilations:
-1 items
+2 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXJxrBf91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXMRQnCl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUM6XFVzZXJzXGFsZXhhXGdpdGh1YlxzY2FsYS10dXRvcmlhbHNcZ2FtZXNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
