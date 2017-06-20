@@ -4,7 +4,7 @@
 		module="games$sources_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170619154923"
+		publication="20170620074533"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

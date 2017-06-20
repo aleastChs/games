@@ -1124,6 +1124,21 @@ function $s_Lscalatags_jsdom_TagFactory$class__typedTag__Lscalatags_jsdom_TagFac
   };
   return new $c_Lscalatags_JsDom$TypedTag().init___T__sci_List__Z__Lscalatags_generic_Namespace(s, $m_sci_Nil$(), $void, ns)
 }
+function $s_Lupickle_Generated$class__Tuple2W__Lupickle_Generated__O__O__O($$this, evidence$3, evidence$4) {
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer, evidence$3$1, evidence$4$1) {
+    return (function(x$2) {
+      var x = $as_T2(x$2);
+      var jsx$2 = $m_s_Predef$();
+      var t = x.$$und1__O();
+      var evidence$2 = $as_Lupickle_Types$Writer(evidence$3$1);
+      var jsx$1 = $s_Lupickle_Types$class__writeJs__Lupickle_Types__O__Lupickle_Types$Writer__Lupickle_Js$Value(arg$outer, t, evidence$2);
+      var t$1 = x.$$und2__O();
+      var evidence$2$1 = $as_Lupickle_Types$Writer(evidence$4$1);
+      return new $c_Lupickle_Js$Arr().init___sc_Seq(jsx$2.genericWrapArray__O__scm_WrappedArray($makeNativeArrayWrapper($d_Lupickle_Js$Value.getArrayOf(), [jsx$1, $s_Lupickle_Types$class__writeJs__Lupickle_Types__O__Lupickle_Types$Writer__Lupickle_Js$Value(arg$outer, t$1, evidence$2$1)])))
+    })
+  })($$this, evidence$3, evidence$4));
+  return $s_Lupickle_Implicits$class__makeWriter__Lupickle_Implicits__F1__Lupickle_Types$Writer($$this, f)
+}
 function $s_Lupickle_Generated$class__Tuple2R__Lupickle_Generated__O__O__O($$this, evidence$5, evidence$6) {
   var pf = new $c_Lupickle_Generated$$anonfun$Tuple2R$1().init___Lupickle_Generated__O__O($$this, evidence$5, evidence$6);
   var this$1 = $$this.Internal__Lupickle_Implicits$Internal$();
@@ -1378,6 +1393,21 @@ function $s_Lupickle_Implicits$class__upickle$Implicits$$NumericStringReadWriter
   var src = new $c_Lsourcecode_Enclosing().init___T("upickle.Implicits#NumericStringReadWriter");
   return new $c_Lupickle_Types$ReadWriter$$anon$1().init___Lupickle_Types$ReadWriter$__F1__s_PartialFunction__Lsourcecode_Enclosing(this$1, _write, _read, src)
 }
+function $s_Lupickle_Implicits$class__MapW__Lupickle_Implicits__Lupickle_Types$Writer__Lupickle_Types$Writer__Lupickle_Types$Writer($$this, evidence$27, evidence$28) {
+  var jsx$1 = $m_sr_BoxesRunTime$();
+  var e = $$this.StringRW$1;
+  if (jsx$1.equals__O__O__Z(evidence$27, e)) {
+    var this$3 = $$this.Aliases__Lupickle_Types$Aliases$().W$1;
+    var _write = new $c_Lupickle_Implicits$$anonfun$MapW$1().init___Lupickle_Implicits__Lupickle_Types$Writer($$this, evidence$28);
+    var src = new $c_Lsourcecode_Enclosing().init___T("upickle.Implicits#MapW");
+    return new $c_Lupickle_Types$Writer$$anon$3().init___Lupickle_Types$Writer$__F1__Lsourcecode_Enclosing(this$3, _write, src)
+  } else {
+    var this$4 = $$this.Aliases__Lupickle_Types$Aliases$().W$1;
+    var _write$1 = new $c_Lupickle_Implicits$$anonfun$MapW$2().init___Lupickle_Implicits__Lupickle_Types$Writer__Lupickle_Types$Writer($$this, evidence$27, evidence$28);
+    var src$1 = new $c_Lsourcecode_Enclosing().init___T("upickle.Implicits#MapW");
+    return new $c_Lupickle_Types$Writer$$anon$3().init___Lupickle_Types$Writer$__F1__Lsourcecode_Enclosing(this$4, _write$1, src$1)
+  }
+}
 function $s_Lupickle_Implicits$class__upickle$Implicits$$numericReaderFunc__Lupickle_Implicits__F1__F1__s_math_Numeric__s_PartialFunction($$this, func, func2, evidence$16) {
   var this$1 = $$this.Internal__Lupickle_Implicits$Internal$();
   var pf = new $c_Lupickle_Implicits$$anonfun$upickle$Implicits$$numericReaderFunc$1().init___Lupickle_Implicits__F1__F1($$this, func, func2);
@@ -1387,6 +1417,11 @@ function $s_Lupickle_Implicits$class__upickle$Implicits$$numericStringReaderFunc
   var this$1 = $$this.Internal__Lupickle_Implicits$Internal$();
   var pf = new $c_Lupickle_Implicits$$anonfun$upickle$Implicits$$numericStringReaderFunc$1().init___Lupickle_Implicits__F1($$this, func);
   return new $c_Lupickle_Implicits$Internal$$anon$1().init___Lupickle_Implicits$Internal$__T__s_PartialFunction(this$1, "String", pf)
+}
+function $s_Lupickle_Implicits$class__makeWriter__Lupickle_Implicits__F1__Lupickle_Types$Writer($$this, f) {
+  var this$1 = $$this.Writer__Lupickle_Types$Writer$();
+  var src = new $c_Lsourcecode_Enclosing().init___T("upickle.Implicits#makeWriter");
+  return new $c_Lupickle_Types$Writer$$anon$3().init___Lupickle_Types$Writer$__F1__Lsourcecode_Enclosing(this$1, f, src)
 }
 function $s_Lupickle_Implicits$class__makeReader__Lupickle_Implicits__s_PartialFunction__Lupickle_Types$Reader($$this, pf) {
   var this$1 = $$this.Reader__Lupickle_Types$Reader$();
@@ -1426,6 +1461,18 @@ function $s_Lupickle_Types$Reader$class__$$init$__Lupickle_Types$Reader__V($$thi
   $$this.upickle$Types$Reader$$undsetter$und$upickle$Types$Reader$$readNull$und$eq__s_PartialFunction__V(new $c_Lupickle_Types$Reader$$anonfun$1().init___Lupickle_Types$Reader($$this));
   $$this.upickle$Types$Reader$$undsetter$und$read$und$eq__s_PartialFunction__V(new $c_Lupickle_Types$Reader$$anon$2().init___Lupickle_Types$Reader($$this))
 }
+function $is_Lupickle_Types$Writer(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lupickle_Types$Writer)))
+}
+function $as_Lupickle_Types$Writer(obj) {
+  return (($is_Lupickle_Types$Writer(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "upickle.Types$Writer"))
+}
+function $isArrayOf_Lupickle_Types$Writer(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lupickle_Types$Writer)))
+}
+function $asArrayOf_Lupickle_Types$Writer(obj, depth) {
+  return (($isArrayOf_Lupickle_Types$Writer(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lupickle.Types$Writer;", depth))
+}
 function $s_Lupickle_Types$Writer$class__$$init$__Lupickle_Types$Writer__V($$this) {
   $$this.upickle$Types$Writer$$undsetter$und$write$und$eq__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer) {
     return (function(x0$1$2) {
@@ -1439,6 +1486,9 @@ function $s_Lupickle_Types$class__readJs__Lupickle_Types__Lupickle_Js$Value__Lup
 function $s_Lupickle_Types$class__read__Lupickle_Types__T__Lupickle_Types$Reader__O($$this, expr, evidence$3) {
   var expr$1 = $m_Lupickle_json_package$().read__T__Lupickle_Js$Value(expr);
   return $s_Lupickle_Types$class__readJs__Lupickle_Types__Lupickle_Js$Value__Lupickle_Types$Reader__O($$this, expr$1, evidence$3)
+}
+function $s_Lupickle_Types$class__write__Lupickle_Types__O__I__Lupickle_Types$Writer__T($$this, expr, indent, evidence$1) {
+  return $m_Lupickle_json_package$().write__Lupickle_Js$Value__I__T($s_Lupickle_Types$class__writeJs__Lupickle_Types__O__Lupickle_Types$Writer__Lupickle_Js$Value($$this, expr, evidence$1), indent)
 }
 function $s_Lupickle_Types$class__writeJs__Lupickle_Types__O__Lupickle_Types$Writer__Lupickle_Js$Value($$this, expr, evidence$2) {
   return $as_Lupickle_Js$Value(evidence$2.write__F1().apply__O__O(expr))
@@ -1518,6 +1568,17 @@ function $s_s_Proxy$class__toString__s_Proxy__T($$this) {
 }
 function $s_s_Proxy$class__equals__s_Proxy__O__Z($$this, that) {
   return ((that !== null) && (((that === $$this) || (that === $$this.self$1)) || $objectEquals(that, $$this.self$1)))
+}
+function $s_s_concurrent_Future$class__map__s_concurrent_Future__F1__s_concurrent_ExecutionContext__s_concurrent_Future($$this, f, executor) {
+  var p = new $c_s_concurrent_impl_Promise$DefaultPromise().init___();
+  $$this.onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($$this$1, p$1, f$1) {
+    return (function(v$2) {
+      var v = $as_s_util_Try(v$2);
+      var result = v.map__F1__s_util_Try(f$1);
+      return $s_s_concurrent_Promise$class__complete__s_concurrent_Promise__s_util_Try__s_concurrent_Promise(p$1, result)
+    })
+  })($$this, p, f)), executor);
+  return p
 }
 function $s_s_concurrent_Future$class__foreach__s_concurrent_Future__F1__s_concurrent_ExecutionContext__V($$this, f, executor) {
   $$this.onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($$this$1, f$1) {
@@ -4371,13 +4432,34 @@ $c_Lsimple_Client$.prototype.main__Lorg_scalajs_dom_raw_HTMLDivElement__Lorg_sca
   return container.appendChild(jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$2, jsx$1, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$3, outputBox)])).render__Lorg_scalajs_dom_raw_Element())
 });
 $c_Lsimple_Client$.prototype.simple$Client$$update$1__Lorg_scalajs_dom_raw_HTMLInputElement__Lorg_scalajs_dom_raw_HTMLUListElement__V = (function(inputBox$1, outputBox$1) {
-  var this$4 = $m_Lorg_scalajs_dom_ext_Ajax$();
-  var s = $as_T(inputBox$1.value);
-  var headers = $m_sci_Map$EmptyMap$();
-  var this$5 = this$4.apply__T__T__Lorg_scalajs_dom_ext_Ajax$InputData__I__sci_Map__Z__T__s_concurrent_Future("POST", "/ajax/list", s, 0, headers, false, "");
-  var f = new $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1().init___Lorg_scalajs_dom_raw_HTMLUListElement(outputBox$1);
+  var this$1 = $m_Lsimple_Ajaxer$();
+  var jsx$2 = new $c_Lautowire_ClientProxy().init___Lautowire_Client(this$1).self$1;
+  var jsx$1 = $as_sc_Seq($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["simple", "Api", "list"])));
+  var this$3 = $m_Lsimple_Ajaxer$();
+  new $c_Lautowire_ClientProxy().init___Lautowire_Client(this$3);
+  var r = $as_T(inputBox$1.value);
+  var evidence$2 = $m_Lupickle_default$().StringRW$1;
+  var this$6 = $m_Lupickle_default$();
+  $m_Lupickle_default$();
+  var indent = 0;
+  var y = $s_Lupickle_Types$class__write__Lupickle_Types__O__I__Lupickle_Types$Writer__T(this$6, r, indent, evidence$2);
+  var array = [new $c_T2().init___O__O("path", y)];
+  var this$9 = new $c_scm_MapBuilder().init___sc_GenMap($m_sci_Map$EmptyMap$());
+  var i = 0;
+  var len = $uI(array.length);
+  while ((i < len)) {
+    var index = i;
+    var arg1 = array[index];
+    this$9.$$plus$eq__T2__scm_MapBuilder($as_T2(arg1));
+    i = ((1 + i) | 0)
+  };
+  var this$10 = jsx$2.doCall__Lautowire_Core$Request__s_concurrent_Future(new $c_Lautowire_Core$Request().init___sc_Seq__sci_Map(jsx$1, $as_sci_Map(this$9.elems$1)));
+  var f = new $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1().init___();
   var executor = $m_sjs_concurrent_JSExecutionContext$Implicits$().runNow$1;
-  $s_s_concurrent_Future$class__foreach__s_concurrent_Future__F1__s_concurrent_ExecutionContext__V(this$5, f, executor)
+  var this$11 = $s_s_concurrent_Future$class__map__s_concurrent_Future__F1__s_concurrent_ExecutionContext__s_concurrent_Future(this$10, f, executor);
+  var f$1 = new $c_Lsimple_Client$$anonfun$simple$Client$$update$1$2().init___Lorg_scalajs_dom_raw_HTMLUListElement(outputBox$1);
+  var executor$1 = $m_sjs_concurrent_JSExecutionContext$Implicits$().runNow$1;
+  $s_s_concurrent_Future$class__foreach__s_concurrent_Future__F1__s_concurrent_ExecutionContext__V(this$11, f$1, executor$1)
 });
 $c_Lsimple_Client$.prototype.$$js$exported$meth$main__Lorg_scalajs_dom_raw_HTMLDivElement__O = (function(container) {
   return this.main__Lorg_scalajs_dom_raw_HTMLDivElement__Lorg_scalajs_dom_raw_Node(container)
@@ -4403,38 +4485,38 @@ function $m_Lsimple_Client$() {
 $e.simple = ($e.simple || {});
 $e.simple.Client = $m_Lsimple_Client$;
 /** @constructor */
-function $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1() {
+function $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1() {
   $c_O.call(this);
   this.derive$macro$1$1 = null;
   this.bitmap$0$1 = false
 }
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1.prototype = new $h_O();
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1.prototype.constructor = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1.prototype = new $h_O();
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1.prototype.constructor = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1;
 /** @constructor */
-function $h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1() {
+function $h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1() {
   /*<skip>*/
 }
-$h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1.prototype = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1.prototype;
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1.prototype.derive$macro$1$lzycompute__p1__Lupickle_Types$Reader = (function() {
+$h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1.prototype = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1.prototype;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1.prototype.init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1 = (function($$outer) {
+  return this
+});
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1.prototype.derive$macro$1$lzycompute__p1__Lupickle_Types$Reader = (function() {
   if ((!this.bitmap$0$1)) {
-    this.derive$macro$1$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1().init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1(this));
+    this.derive$macro$1$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1().init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1(this));
     this.bitmap$0$1 = true
   };
   return this.derive$macro$1$1
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1.prototype.derive$macro$1__Lupickle_Types$Reader = (function() {
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1.prototype.derive$macro$1__Lupickle_Types$Reader = (function() {
   return ((!this.bitmap$0$1) ? this.derive$macro$1$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$1$1)
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1.prototype.init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1 = (function($$outer) {
-  return this
-});
-var $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1 = new $TypeData().initClass({
-  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1: 0
-}, false, "simple.Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1", {
-  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1: 1,
+var $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1 = new $TypeData().initClass({
+  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1: 0
+}, false, "simple.Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1", {
+  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1: 1,
   O: 1
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1.prototype.$classData = $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1.prototype.$classData = $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1;
 /** @constructor */
 function $c_Lsourcecode_SourceValue() {
   $c_O.call(this)
@@ -4446,6 +4528,18 @@ function $h_Lsourcecode_SourceValue() {
   /*<skip>*/
 }
 $h_Lsourcecode_SourceValue.prototype = $c_Lsourcecode_SourceValue.prototype;
+function $is_Lupickle_Generated(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lupickle_Generated)))
+}
+function $as_Lupickle_Generated(obj) {
+  return (($is_Lupickle_Generated(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "upickle.Generated"))
+}
+function $isArrayOf_Lupickle_Generated(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lupickle_Generated)))
+}
+function $asArrayOf_Lupickle_Generated(obj, depth) {
+  return (($isArrayOf_Lupickle_Generated(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lupickle.Generated;", depth))
+}
 /** @constructor */
 function $c_Lupickle_Implicits$Internal$() {
   $c_O.call(this);
@@ -5862,6 +5956,15 @@ function $h_scg_GenericCompanion() {
   /*<skip>*/
 }
 $h_scg_GenericCompanion.prototype = $c_scg_GenericCompanion.prototype;
+$c_scg_GenericCompanion.prototype.apply__sc_Seq__sc_GenTraversable = (function(elems) {
+  if (elems.isEmpty__Z()) {
+    return this.empty__sc_GenTraversable()
+  } else {
+    var b = this.newBuilder__scm_Builder();
+    b.$$plus$plus$eq__sc_TraversableOnce__scg_Growable(elems);
+    return $as_sc_GenTraversable(b.result__O())
+  }
+});
 $c_scg_GenericCompanion.prototype.empty__sc_GenTraversable = (function() {
   return $as_sc_GenTraversable(this.newBuilder__scm_Builder().result__O())
 });
@@ -9571,6 +9674,56 @@ var $d_Lscalatags_LowPriorityImplicits$bindNode = new $TypeData().initClass({
   Lscalatags_generic_Modifier: 1
 });
 $c_Lscalatags_LowPriorityImplicits$bindNode.prototype.$classData = $d_Lscalatags_LowPriorityImplicits$bindNode;
+/** @constructor */
+function $c_Lsimple_Ajaxer$() {
+  $c_O.call(this)
+}
+$c_Lsimple_Ajaxer$.prototype = new $h_O();
+$c_Lsimple_Ajaxer$.prototype.constructor = $c_Lsimple_Ajaxer$;
+/** @constructor */
+function $h_Lsimple_Ajaxer$() {
+  /*<skip>*/
+}
+$h_Lsimple_Ajaxer$.prototype = $c_Lsimple_Ajaxer$.prototype;
+$c_Lsimple_Ajaxer$.prototype.init___ = (function() {
+  return this
+});
+$c_Lsimple_Ajaxer$.prototype.doCall__Lautowire_Core$Request__s_concurrent_Future = (function(req) {
+  var this$7 = $m_Lorg_scalajs_dom_ext_Ajax$();
+  var url = ("/ajax/" + req.path$1.mkString__T__T("/"));
+  var this$3 = $m_Lupickle_default$();
+  var expr = req.args$1;
+  $m_Lupickle_default$();
+  var indent = 0;
+  var this$2 = $m_Lupickle_default$();
+  var evidence$27 = $m_Lupickle_default$().StringRW$1;
+  var evidence$28 = $m_Lupickle_default$().StringRW$1;
+  var evidence$1 = $s_Lupickle_Implicits$class__MapW__Lupickle_Implicits__Lupickle_Types$Writer__Lupickle_Types$Writer__Lupickle_Types$Writer(this$2, evidence$27, evidence$28);
+  var s = $s_Lupickle_Types$class__write__Lupickle_Types__O__I__Lupickle_Types$Writer__T(this$3, expr, indent, evidence$1);
+  var headers = $m_sci_Map$EmptyMap$();
+  var this$8 = this$7.apply__T__T__Lorg_scalajs_dom_ext_Ajax$InputData__I__sci_Map__Z__T__s_concurrent_Future("POST", url, s, 0, headers, false, "");
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(x$1$2) {
+    return $as_T(x$1$2.responseText)
+  }));
+  var executor = $m_sjs_concurrent_JSExecutionContext$Implicits$().runNow$1;
+  return $s_s_concurrent_Future$class__map__s_concurrent_Future__F1__s_concurrent_ExecutionContext__s_concurrent_Future(this$8, f, executor)
+});
+var $d_Lsimple_Ajaxer$ = new $TypeData().initClass({
+  Lsimple_Ajaxer$: 0
+}, false, "simple.Ajaxer$", {
+  Lsimple_Ajaxer$: 1,
+  O: 1,
+  Lautowire_Client: 1,
+  Lautowire_Serializers: 1
+});
+$c_Lsimple_Ajaxer$.prototype.$classData = $d_Lsimple_Ajaxer$;
+var $n_Lsimple_Ajaxer$ = (void 0);
+function $m_Lsimple_Ajaxer$() {
+  if ((!$n_Lsimple_Ajaxer$)) {
+    $n_Lsimple_Ajaxer$ = new $c_Lsimple_Ajaxer$().init___()
+  };
+  return $n_Lsimple_Ajaxer$
+}
 /** @constructor */
 function $c_Lupickle_Implicits$Internal$$anon$1() {
   $c_O.call(this);
@@ -15885,6 +16038,174 @@ var $d_sjsr_RuntimeLong = new $TypeData().initClass({
 });
 $c_sjsr_RuntimeLong.prototype.$classData = $d_sjsr_RuntimeLong;
 /** @constructor */
+function $c_Lautowire_ClientProxy() {
+  $c_O.call(this);
+  this.self$1 = null
+}
+$c_Lautowire_ClientProxy.prototype = new $h_O();
+$c_Lautowire_ClientProxy.prototype.constructor = $c_Lautowire_ClientProxy;
+/** @constructor */
+function $h_Lautowire_ClientProxy() {
+  /*<skip>*/
+}
+$h_Lautowire_ClientProxy.prototype = $c_Lautowire_ClientProxy.prototype;
+$c_Lautowire_ClientProxy.prototype.productPrefix__T = (function() {
+  return "ClientProxy"
+});
+$c_Lautowire_ClientProxy.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lautowire_ClientProxy.prototype.init___Lautowire_Client = (function(self) {
+  this.self$1 = self;
+  return this
+});
+$c_Lautowire_ClientProxy.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lautowire_ClientProxy(x$1)) {
+    var ClientProxy$1 = $as_Lautowire_ClientProxy(x$1);
+    var x = this.self$1;
+    var x$2 = ClientProxy$1.self$1;
+    return (x === x$2)
+  } else {
+    return false
+  }
+});
+$c_Lautowire_ClientProxy.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.self$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lautowire_ClientProxy.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lautowire_ClientProxy.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lautowire_ClientProxy.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lautowire_ClientProxy(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lautowire_ClientProxy)))
+}
+function $as_Lautowire_ClientProxy(obj) {
+  return (($is_Lautowire_ClientProxy(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "autowire.ClientProxy"))
+}
+function $isArrayOf_Lautowire_ClientProxy(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lautowire_ClientProxy)))
+}
+function $asArrayOf_Lautowire_ClientProxy(obj, depth) {
+  return (($isArrayOf_Lautowire_ClientProxy(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lautowire.ClientProxy;", depth))
+}
+var $d_Lautowire_ClientProxy = new $TypeData().initClass({
+  Lautowire_ClientProxy: 0
+}, false, "autowire.ClientProxy", {
+  Lautowire_ClientProxy: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lautowire_ClientProxy.prototype.$classData = $d_Lautowire_ClientProxy;
+/** @constructor */
+function $c_Lautowire_Core$Request() {
+  $c_O.call(this);
+  this.path$1 = null;
+  this.args$1 = null
+}
+$c_Lautowire_Core$Request.prototype = new $h_O();
+$c_Lautowire_Core$Request.prototype.constructor = $c_Lautowire_Core$Request;
+/** @constructor */
+function $h_Lautowire_Core$Request() {
+  /*<skip>*/
+}
+$h_Lautowire_Core$Request.prototype = $c_Lautowire_Core$Request.prototype;
+$c_Lautowire_Core$Request.prototype.productPrefix__T = (function() {
+  return "Request"
+});
+$c_Lautowire_Core$Request.prototype.productArity__I = (function() {
+  return 2
+});
+$c_Lautowire_Core$Request.prototype.init___sc_Seq__sci_Map = (function(path, args) {
+  this.path$1 = path;
+  this.args$1 = args;
+  return this
+});
+$c_Lautowire_Core$Request.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lautowire_Core$Request(x$1)) {
+    var Request$1 = $as_Lautowire_Core$Request(x$1);
+    var x = this.path$1;
+    var x$2 = Request$1.path$1;
+    if (((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))) {
+      var x$3 = this.args$1;
+      var x$4 = Request$1.args$1;
+      return ((x$3 === null) ? (x$4 === null) : $s_sc_GenMapLike$class__equals__sc_GenMapLike__O__Z(x$3, x$4))
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+});
+$c_Lautowire_Core$Request.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.path$1;
+      break
+    }
+    case 1: {
+      return this.args$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lautowire_Core$Request.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lautowire_Core$Request.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lautowire_Core$Request.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lautowire_Core$Request(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lautowire_Core$Request)))
+}
+function $as_Lautowire_Core$Request(obj) {
+  return (($is_Lautowire_Core$Request(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "autowire.Core$Request"))
+}
+function $isArrayOf_Lautowire_Core$Request(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lautowire_Core$Request)))
+}
+function $asArrayOf_Lautowire_Core$Request(obj, depth) {
+  return (($isArrayOf_Lautowire_Core$Request(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lautowire.Core$Request;", depth))
+}
+var $d_Lautowire_Core$Request = new $TypeData().initClass({
+  Lautowire_Core$Request: 0
+}, false, "autowire.Core$Request", {
+  Lautowire_Core$Request: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lautowire_Core$Request.prototype.$classData = $d_Lautowire_Core$Request;
+/** @constructor */
 function $c_Lscalatags_JsDom$RawFrag$() {
   $c_O.call(this)
 }
@@ -16069,8 +16390,7 @@ var $d_Lscalatags_generic_Attr = new $TypeData().initClass({
 $c_Lscalatags_generic_Attr.prototype.$classData = $d_Lscalatags_generic_Attr;
 /** @constructor */
 function $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1() {
-  $c_sr_AbstractFunction1.call(this);
-  this.outputBox$1$f = null
+  $c_sr_AbstractFunction1.call(this)
 }
 $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1.prototype = new $h_sr_AbstractFunction1();
 $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1.prototype.constructor = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1;
@@ -16079,49 +16399,24 @@ function $h_Lsimple_Client$$anonfun$simple$Client$$update$1$1() {
   /*<skip>*/
 }
 $h_Lsimple_Client$$anonfun$simple$Client$$update$1$1.prototype = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1.prototype;
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1.prototype.apply__Lorg_scalajs_dom_raw_XMLHttpRequest__V = (function(xhr) {
-  var this$4 = $m_Lupickle_default$();
-  var expr = $as_T(xhr.responseText);
-  var this$3 = $m_Lupickle_default$();
-  var this$1 = $m_s_Predef$();
-  var cbf = new $c_s_LowPriorityImplicits$$anon$4().init___s_LowPriorityImplicits(this$1);
-  var this$2 = $m_Lupickle_default$().Internal__Lupickle_Implicits$Internal$();
-  var r = new $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1().init___Lsimple_Client$$anonfun$simple$Client$$update$1$1(this);
-  var r$1 = new $c_Lupickle_Implicits$Internal$$anon$3().init___Lupickle_Implicits$Internal$__T__F0(this$2, "Tagged Object simple.FileData", r);
-  var evidence$3 = $s_Lupickle_Implicits$class__SeqishR__Lupickle_Implicits__scg_CanBuildFrom__Lupickle_Types$Reader__Lupickle_Types$Reader(this$3, cbf, r$1);
-  var data = $as_sc_Seq($s_Lupickle_Types$class__read__Lupickle_Types__T__Lupickle_Types$Reader__O(this$4, expr, evidence$3));
-  this.outputBox$1$f.innerHTML = "";
-  data.withFilter__F1__scg_FilterMonadic(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(check$ifrefutable$1$2) {
-    var check$ifrefutable$1 = $as_Lsimple_FileData(check$ifrefutable$1$2);
-    return (check$ifrefutable$1 !== null)
-  }))).foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer) {
-    return (function(x$1$2) {
-      var x$1 = $as_Lsimple_FileData(x$1$2);
-      if ((x$1 !== null)) {
-        var name = x$1.name$1;
-        var t = x$1.size$1;
-        var lo = t.lo$2;
-        var hi = t.hi$2;
-        var jsx$4 = arg$outer.outputBox$1$f;
-        var jsx$3 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().li__Lscalatags_generic_TypedTag());
-        var jsx$2 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().b__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T(name))]));
-        $m_Lscalatags_JsDom$all$();
-        var jsx$1 = new $c_Lscalatags_JsDom$StringFrag().init___T(" - ");
-        $m_Lscalatags_JsDom$all$();
-        var v = $m_sjsr_RuntimeLong$().scala$scalajs$runtime$RuntimeLong$$toString__I__I__T(lo, hi);
-        return jsx$4.appendChild(jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$2, jsx$1, new $c_Lscalatags_JsDom$StringFrag().init___T(v), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T(" bytes"))])).render__Lorg_scalajs_dom_raw_Element())
-      } else {
-        throw new $c_s_MatchError().init___O(x$1)
-      }
-    })
-  })(this)))
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1.prototype.init___ = (function() {
+  return this
 });
 $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1.prototype.apply__O__O = (function(v1) {
-  this.apply__Lorg_scalajs_dom_raw_XMLHttpRequest__V(v1)
+  return this.apply__T__sc_Seq($as_T(v1))
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1.prototype.init___Lorg_scalajs_dom_raw_HTMLUListElement = (function(outputBox$1) {
-  this.outputBox$1$f = outputBox$1;
-  return this
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1.prototype.apply__T__sc_Seq = (function(x$3) {
+  var this$1 = $m_Lsimple_Ajaxer$();
+  new $c_Lautowire_ClientProxy().init___Lautowire_Client(this$1);
+  var this$4 = $m_Lupickle_default$();
+  var this$2 = $m_s_Predef$();
+  var cbf = new $c_s_LowPriorityImplicits$$anon$4().init___s_LowPriorityImplicits(this$2);
+  var this$3 = $m_Lupickle_default$().Internal__Lupickle_Implicits$Internal$();
+  var r = new $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1().init___Lsimple_Client$$anonfun$simple$Client$$update$1$1(this);
+  var r$1 = new $c_Lupickle_Implicits$Internal$$anon$3().init___Lupickle_Implicits$Internal$__T__F0(this$3, "Tagged Object simple.FileData", r);
+  var evidence$1 = $s_Lupickle_Implicits$class__SeqishR__Lupickle_Implicits__scg_CanBuildFrom__Lupickle_Types$Reader__Lupickle_Types$Reader(this$4, cbf, r$1);
+  var this$6 = $m_Lupickle_default$();
+  return $as_sc_Seq($s_Lupickle_Types$class__read__Lupickle_Types__T__Lupickle_Types$Reader__O(this$6, x$3, evidence$1))
 });
 var $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1 = new $TypeData().initClass({
   Lsimple_Client$$anonfun$simple$Client$$update$1$1: 0
@@ -16135,51 +16430,51 @@ var $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1 = new $TypeData().initC
 });
 $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1.prototype.$classData = $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1;
 /** @constructor */
-function $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1() {
+function $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1() {
   $c_sr_AbstractFunction0.call(this)
 }
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1.prototype = new $h_sr_AbstractFunction0();
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1.prototype.constructor = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1.prototype = new $h_sr_AbstractFunction0();
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1.prototype.constructor = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1;
 /** @constructor */
-function $h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1() {
+function $h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1() {
   /*<skip>*/
 }
-$h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1.prototype = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1.prototype;
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1.prototype.init___Lsimple_Client$$anonfun$simple$Client$$update$1$1 = (function($$outer) {
+$h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1.prototype = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1.prototype;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1.prototype.init___Lsimple_Client$$anonfun$simple$Client$$update$1$1 = (function($$outer) {
   return this
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1.prototype.apply__Lupickle_Types$Reader = (function() {
-  var this$1 = new $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1().init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1(this);
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1.prototype.apply__Lupickle_Types$Reader = (function() {
+  var this$1 = new $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1().init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1(this);
   return this$1.derive$macro$1__Lupickle_Types$Reader()
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1.prototype.apply__O = (function() {
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1.prototype.apply__O = (function() {
   return this.apply__Lupickle_Types$Reader()
 });
-var $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1 = new $TypeData().initClass({
-  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1: 0
-}, false, "simple.Client$$anonfun$simple$Client$$update$1$1$$anonfun$1", {
-  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1: 1,
+var $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1 = new $TypeData().initClass({
+  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1: 0
+}, false, "simple.Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1", {
+  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1: 1,
   sr_AbstractFunction0: 1,
   O: 1,
   F0: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1.prototype.$classData = $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1.prototype.$classData = $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1;
 /** @constructor */
-function $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1() {
+function $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1() {
   $c_sr_AbstractFunction0.call(this)
 }
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1.prototype = new $h_sr_AbstractFunction0();
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1.prototype.constructor = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1.prototype = new $h_sr_AbstractFunction0();
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1.prototype.constructor = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1;
 /** @constructor */
-function $h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1() {
+function $h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1() {
   /*<skip>*/
 }
-$h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1.prototype = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1.prototype;
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1.prototype.apply__Lupickle_Types$Reader = (function() {
+$h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1.prototype = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1.prototype;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1.prototype.apply__Lupickle_Types$Reader = (function() {
   var this$10 = $m_Lupickle_default$();
-  var f = new $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1().init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1(this);
+  var f = new $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2().init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1(this);
   var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array(["name", "size"]);
   var len = $uI(xs.array$6.length);
   var array = $newArrayObject($d_T.getArrayOf(), [len]);
@@ -16208,38 +16503,41 @@ $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun
   var evidence$14 = $as_Lupickle_Types$Reader($s_Lupickle_Generated$class__Tuple2R__Lupickle_Generated__O__O__O(this$9, evidence$5, evidence$6));
   return $s_Lupickle_Implicits$class__CaseR__Lupickle_Implicits__F1__AT__ALupickle_Js$Value__Lupickle_Types$Reader__Lupickle_Types$Reader(this$10, f, array, array$1, evidence$14)
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1.prototype.init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1 = (function($$outer) {
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1.prototype.init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1 = (function($$outer) {
   return this
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1.prototype.apply__O = (function() {
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1.prototype.apply__O = (function() {
   return this.apply__Lupickle_Types$Reader()
 });
-var $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1 = new $TypeData().initClass({
-  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1: 0
-}, false, "simple.Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1", {
-  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1: 1,
+var $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1 = new $TypeData().initClass({
+  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1: 0
+}, false, "simple.Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1", {
+  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1: 1,
   sr_AbstractFunction0: 1,
   O: 1,
   F0: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1.prototype.$classData = $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1.prototype.$classData = $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1;
 /** @constructor */
-function $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1() {
+function $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2() {
   $c_sr_AbstractFunction1.call(this)
 }
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1.prototype = new $h_sr_AbstractFunction1();
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1.prototype.constructor = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2.prototype = new $h_sr_AbstractFunction1();
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2.prototype.constructor = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2;
 /** @constructor */
-function $h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1() {
+function $h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2() {
   /*<skip>*/
 }
-$h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1.prototype = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1.prototype;
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1.prototype.apply__O__O = (function(v1) {
+$h_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2.prototype = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2.prototype;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2.prototype.init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1 = (function($$outer) {
+  return this
+});
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2.prototype.apply__O__O = (function(v1) {
   return this.apply__T2__Lsimple_FileData($as_T2(v1))
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1.prototype.apply__T2__Lsimple_FileData = (function(derive$macro$10) {
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2.prototype.apply__T2__Lsimple_FileData = (function(derive$macro$10) {
   var arg1 = derive$macro$10.$$und1__O();
   var t = derive$macro$10.$$und2$mcJ$sp__J();
   var lo = t.lo$2;
@@ -16250,20 +16548,74 @@ $c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun
   var hi$1 = t$1.hi$2;
   return new $c_Lsimple_FileData().init___T__J(name, new $c_sjsr_RuntimeLong().init___I__I(lo$1, hi$1))
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1.prototype.init___Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1 = (function($$outer) {
-  return this
-});
-var $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1 = new $TypeData().initClass({
-  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1: 0
-}, false, "simple.Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1", {
-  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1: 1,
+var $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2 = new $TypeData().initClass({
+  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2: 0
+}, false, "simple.Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2", {
+  Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2: 1,
   sr_AbstractFunction1: 1,
   O: 1,
   F1: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1.prototype.$classData = $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$1;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2.prototype.$classData = $d_Lsimple_Client$$anonfun$simple$Client$$update$1$1$$anonfun$apply$1$$anon$1$$anonfun$derive$macro$1$1$$anonfun$apply$2;
+/** @constructor */
+function $c_Lsimple_Client$$anonfun$simple$Client$$update$1$2() {
+  $c_sr_AbstractFunction1.call(this);
+  this.outputBox$1$f = null
+}
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$2.prototype = new $h_sr_AbstractFunction1();
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$2.prototype.constructor = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$2;
+/** @constructor */
+function $h_Lsimple_Client$$anonfun$simple$Client$$update$1$2() {
+  /*<skip>*/
+}
+$h_Lsimple_Client$$anonfun$simple$Client$$update$1$2.prototype = $c_Lsimple_Client$$anonfun$simple$Client$$update$1$2.prototype;
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$2.prototype.apply__O__O = (function(v1) {
+  this.apply__sc_Seq__V($as_sc_Seq(v1))
+});
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$2.prototype.init___Lorg_scalajs_dom_raw_HTMLUListElement = (function(outputBox$1) {
+  this.outputBox$1$f = outputBox$1;
+  return this
+});
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$2.prototype.apply__sc_Seq__V = (function(data) {
+  this.outputBox$1$f.innerHTML = "";
+  data.withFilter__F1__scg_FilterMonadic(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(check$ifrefutable$1$2) {
+    var check$ifrefutable$1 = $as_Lsimple_FileData(check$ifrefutable$1$2);
+    return (check$ifrefutable$1 !== null)
+  }))).foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer) {
+    return (function(x$2$2) {
+      var x$2 = $as_Lsimple_FileData(x$2$2);
+      if ((x$2 !== null)) {
+        var name = x$2.name$1;
+        var t = x$2.size$1;
+        var lo = t.lo$2;
+        var hi = t.hi$2;
+        var jsx$4 = arg$outer.outputBox$1$f;
+        var jsx$3 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().li__Lscalatags_generic_TypedTag());
+        var jsx$2 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().b__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T(name))]));
+        $m_Lscalatags_JsDom$all$();
+        var jsx$1 = new $c_Lscalatags_JsDom$StringFrag().init___T(" - ");
+        $m_Lscalatags_JsDom$all$();
+        var v = $m_sjsr_RuntimeLong$().scala$scalajs$runtime$RuntimeLong$$toString__I__I__T(lo, hi);
+        return jsx$4.appendChild(jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$2, jsx$1, new $c_Lscalatags_JsDom$StringFrag().init___T(v), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T(" bytes"))])).render__Lorg_scalajs_dom_raw_Element())
+      } else {
+        throw new $c_s_MatchError().init___O(x$2)
+      }
+    })
+  })(this)))
+});
+var $d_Lsimple_Client$$anonfun$simple$Client$$update$1$2 = new $TypeData().initClass({
+  Lsimple_Client$$anonfun$simple$Client$$update$1$2: 0
+}, false, "simple.Client$$anonfun$simple$Client$$update$1$2", {
+  Lsimple_Client$$anonfun$simple$Client$$update$1$2: 1,
+  sr_AbstractFunction1: 1,
+  O: 1,
+  F1: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lsimple_Client$$anonfun$simple$Client$$update$1$2.prototype.$classData = $d_Lsimple_Client$$anonfun$simple$Client$$update$1$2;
 /** @constructor */
 function $c_Lsimple_FileData() {
   $c_O.call(this);
@@ -16356,6 +16708,118 @@ var $d_Lsimple_FileData = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_Lsimple_FileData.prototype.$classData = $d_Lsimple_FileData;
+/** @constructor */
+function $c_Lupickle_Implicits$$anonfun$MapW$1() {
+  $c_sr_AbstractFunction1.call(this);
+  this.$$outer$2 = null;
+  this.evidence$28$1$f = null
+}
+$c_Lupickle_Implicits$$anonfun$MapW$1.prototype = new $h_sr_AbstractFunction1();
+$c_Lupickle_Implicits$$anonfun$MapW$1.prototype.constructor = $c_Lupickle_Implicits$$anonfun$MapW$1;
+/** @constructor */
+function $h_Lupickle_Implicits$$anonfun$MapW$1() {
+  /*<skip>*/
+}
+$h_Lupickle_Implicits$$anonfun$MapW$1.prototype = $c_Lupickle_Implicits$$anonfun$MapW$1.prototype;
+$c_Lupickle_Implicits$$anonfun$MapW$1.prototype.apply__O__O = (function(v1) {
+  return new $c_Lupickle_Js$Obj().init___sc_Seq(this.apply__sci_Map__sc_Seq($as_sci_Map(v1)))
+});
+$c_Lupickle_Implicits$$anonfun$MapW$1.prototype.apply__sci_Map__sc_Seq = (function(x) {
+  var this$3 = $s_sc_MapLike$class__toBuffer__sc_MapLike__scm_Buffer(x);
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer) {
+    return (function(x0$6$2) {
+      var x0$6 = $as_T2(x0$6$2);
+      if ((x0$6 !== null)) {
+        var k = x0$6.$$und1__O();
+        var v = x0$6.$$und2__O();
+        var jsx$1 = $as_T(k);
+        var this$1 = arg$outer.$$outer$2;
+        var evidence$2 = arg$outer.evidence$28$1$f;
+        return new $c_T2().init___O__O(jsx$1, $s_Lupickle_Types$class__writeJs__Lupickle_Types__O__Lupickle_Types$Writer__Lupickle_Js$Value(this$1, v, evidence$2))
+      } else {
+        throw new $c_s_MatchError().init___O(x0$6)
+      }
+    })
+  })(this));
+  var this$2 = $m_sc_Seq$();
+  var bf = this$2.ReusableCBFInstance$2;
+  return $as_sc_Seq($s_sc_TraversableLike$class__map__sc_TraversableLike__F1__scg_CanBuildFrom__O(this$3, f, bf))
+});
+$c_Lupickle_Implicits$$anonfun$MapW$1.prototype.init___Lupickle_Implicits__Lupickle_Types$Writer = (function($$outer, evidence$28$1) {
+  if (($$outer === null)) {
+    throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
+  } else {
+    this.$$outer$2 = $$outer
+  };
+  this.evidence$28$1$f = evidence$28$1;
+  return this
+});
+var $d_Lupickle_Implicits$$anonfun$MapW$1 = new $TypeData().initClass({
+  Lupickle_Implicits$$anonfun$MapW$1: 0
+}, false, "upickle.Implicits$$anonfun$MapW$1", {
+  Lupickle_Implicits$$anonfun$MapW$1: 1,
+  sr_AbstractFunction1: 1,
+  O: 1,
+  F1: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lupickle_Implicits$$anonfun$MapW$1.prototype.$classData = $d_Lupickle_Implicits$$anonfun$MapW$1;
+/** @constructor */
+function $c_Lupickle_Implicits$$anonfun$MapW$2() {
+  $c_sr_AbstractFunction1.call(this);
+  this.$$outer$2 = null;
+  this.evidence$27$1$f = null;
+  this.evidence$28$1$f = null
+}
+$c_Lupickle_Implicits$$anonfun$MapW$2.prototype = new $h_sr_AbstractFunction1();
+$c_Lupickle_Implicits$$anonfun$MapW$2.prototype.constructor = $c_Lupickle_Implicits$$anonfun$MapW$2;
+/** @constructor */
+function $h_Lupickle_Implicits$$anonfun$MapW$2() {
+  /*<skip>*/
+}
+$h_Lupickle_Implicits$$anonfun$MapW$2.prototype = $c_Lupickle_Implicits$$anonfun$MapW$2.prototype;
+$c_Lupickle_Implicits$$anonfun$MapW$2.prototype.apply__O__O = (function(v1) {
+  return new $c_Lupickle_Js$Arr().init___sc_Seq(this.apply__sci_Map__sc_Seq($as_sci_Map(v1)))
+});
+$c_Lupickle_Implicits$$anonfun$MapW$2.prototype.init___Lupickle_Implicits__Lupickle_Types$Writer__Lupickle_Types$Writer = (function($$outer, evidence$27$1, evidence$28$1) {
+  if (($$outer === null)) {
+    throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
+  } else {
+    this.$$outer$2 = $$outer
+  };
+  this.evidence$27$1$f = evidence$27$1;
+  this.evidence$28$1$f = evidence$28$1;
+  return this
+});
+$c_Lupickle_Implicits$$anonfun$MapW$2.prototype.apply__sci_Map__sc_Seq = (function(x) {
+  var this$4 = $s_sc_MapLike$class__toBuffer__sc_MapLike__scm_Buffer(x);
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer) {
+    return (function(expr$2) {
+      var expr = $as_T2(expr$2);
+      var this$2 = arg$outer.$$outer$2;
+      var this$1 = $as_Lupickle_Generated(arg$outer.$$outer$2);
+      var evidence$3 = arg$outer.evidence$27$1$f;
+      var evidence$4 = arg$outer.evidence$28$1$f;
+      var evidence$2 = $as_Lupickle_Types$Writer($s_Lupickle_Generated$class__Tuple2W__Lupickle_Generated__O__O__O(this$1, evidence$3, evidence$4));
+      return $s_Lupickle_Types$class__writeJs__Lupickle_Types__O__Lupickle_Types$Writer__Lupickle_Js$Value(this$2, expr, evidence$2)
+    })
+  })(this));
+  var this$3 = $m_sc_Seq$();
+  var bf = this$3.ReusableCBFInstance$2;
+  return $as_sc_Seq($s_sc_TraversableLike$class__map__sc_TraversableLike__F1__scg_CanBuildFrom__O(this$4, f, bf))
+});
+var $d_Lupickle_Implicits$$anonfun$MapW$2 = new $TypeData().initClass({
+  Lupickle_Implicits$$anonfun$MapW$2: 0
+}, false, "upickle.Implicits$$anonfun$MapW$2", {
+  Lupickle_Implicits$$anonfun$MapW$2: 1,
+  sr_AbstractFunction1: 1,
+  O: 1,
+  F1: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lupickle_Implicits$$anonfun$MapW$2.prototype.$classData = $d_Lupickle_Implicits$$anonfun$MapW$2;
 /** @constructor */
 function $c_Lupickle_Js$Arr$() {
   $c_sr_AbstractFunction1.call(this)
@@ -20526,6 +20990,9 @@ $c_s_util_Failure.prototype.equals__O__Z = (function(x$1) {
     return false
   }
 });
+$c_s_util_Failure.prototype.map__F1__s_util_Try = (function(f) {
+  return this
+});
 $c_s_util_Failure.prototype.productElement__I__O = (function(x$1) {
   switch (x$1) {
     case 0: {
@@ -20604,6 +21071,23 @@ $c_s_util_Success.prototype.equals__O__Z = (function(x$1) {
     return $m_sr_BoxesRunTime$().equals__O__O__Z(this.value$2, Success$1.value$2)
   } else {
     return false
+  }
+});
+$c_s_util_Success.prototype.map__F1__s_util_Try = (function(f) {
+  try {
+    return new $c_s_util_Success().init___O(f.apply__O__O(this.value$2))
+  } catch (e) {
+    var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      var o11 = $m_s_util_control_NonFatal$().unapply__jl_Throwable__s_Option(e$2);
+      if ((!o11.isEmpty__Z())) {
+        var e$3 = $as_jl_Throwable(o11.get__O());
+        return new $c_s_util_Failure().init___jl_Throwable(e$3)
+      };
+      throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(e$2)
+    } else {
+      throw e
+    }
   }
 });
 $c_s_util_Success.prototype.productElement__I__O = (function(x$1) {
@@ -23957,6 +24441,9 @@ function $h_sc_AbstractTraversable() {
   /*<skip>*/
 }
 $h_sc_AbstractTraversable.prototype = $c_sc_AbstractTraversable.prototype;
+$c_sc_AbstractTraversable.prototype.mkString__T__T = (function(sep) {
+  return this.mkString__T__T__T__T("", sep, "")
+});
 $c_sc_AbstractTraversable.prototype.mkString__T__T__T__T = (function(start, sep, end) {
   return $s_sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(this, start, sep, end)
 });
@@ -28038,6 +28525,9 @@ $c_sci_Stream.prototype.mkString__T__T__T__T = (function(start, sep, end) {
   this.force__sci_Stream();
   return $s_sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(this, start, sep, end)
 });
+$c_sci_Stream.prototype.mkString__T__T = (function(sep) {
+  return this.mkString__T__T__T__T("", sep, "")
+});
 $c_sci_Stream.prototype.withFilter__F1__scg_FilterMonadic = (function(p) {
   return new $c_sci_Stream$StreamWithFilter().init___sci_Stream__F1(this, p)
 });
@@ -30803,6 +31293,10 @@ $c_scm_ListBuffer.prototype.equals__O__Z = (function(that) {
 $c_scm_ListBuffer.prototype.mkString__T__T__T__T = (function(start, sep, end) {
   var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
   return $s_sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(this$1, start, sep, end)
+});
+$c_scm_ListBuffer.prototype.mkString__T__T = (function(sep) {
+  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
+  return $s_sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(this$1, "", sep, "")
 });
 $c_scm_ListBuffer.prototype.$$plus$eq__O__scg_Growable = (function(elem) {
   return this.$$plus$eq__O__scm_ListBuffer(elem)

@@ -4,7 +4,7 @@
 		module="app_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170619153657"
+		publication="20170620074531"
 	>
 		<description>
 		app
@@ -36,6 +36,7 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.5" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.lihaoyi" name="scalatags_2.11" rev="0.6.2" conf="compile->default(compile)"/>
 		<dependency org="com.lihaoyi" name="upickle_2.11" rev="0.4.4" conf="compile->default(compile)"/>
+		<dependency org="com.lihaoyi" name="autowire_2.11" rev="0.2.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-http-experimental_2.11" rev="2.4.11" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.4.12" conf="compile->default(compile)"/>
 		<dependency org="org.webjars" name="bootstrap" rev="3.2.0" conf="compile->default(compile)"/>

@@ -4,7 +4,7 @@
 		module="app$sources_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170619154921"
+		publication="20170620074533"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -41,6 +41,12 @@
 		</dependency>
 		<dependency org="org.spire-math" name="jawn-parser_2.11" rev="0.10.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jawn-parser_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.lihaoyi" name="autowire_2.11" rev="0.2.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="autowire_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.8/">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.typesafe.akka" name="akka-http-experimental_2.11" rev="2.4.11" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="akka-http-experimental_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>

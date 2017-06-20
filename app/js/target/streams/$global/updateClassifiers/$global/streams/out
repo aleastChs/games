@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->default(compile)]
 [info] Resolving org.scala-js#scalajs-library_2.11;0.6.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e13544
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12a78a0
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-library_2.11;0.6.13
 [debug] 	found org.scala-js#scalajs-library_2.11;0.6.13 in sbt-chain
 [debug] 	[0.6.13] org.scala-js#scalajs-library_2.11;0.6.13
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18d197a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b91327
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -24,7 +24,7 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->default(compile)]
 [info] Resolving com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@191d4b8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cd36b
 [debug] sbt-chain: module revision found in cache: com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2
 [debug] 	found com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 in sbt-chain
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->runtime]
@@ -32,7 +32,7 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->default(compile)]
 [info] Resolving com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40eefb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@324865
 [debug] sbt-chain: module revision found in cache: com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3
 [debug] 	found com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 in sbt-chain
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->runtime]
@@ -40,7 +40,7 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 [compile->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->default(compile)]
 [info] Resolving org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12890b6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fd0719
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1
 [debug] 	found org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 in sbt-chain
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->runtime]
@@ -48,7 +48,7 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.1 [compile->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#upickle_sjs0.6_2.11;0.4.4 [compile->default(compile)]
 [info] Resolving com.lihaoyi#upickle_sjs0.6_2.11;0.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a3268
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23c803
 [debug] sbt-chain: module revision found in cache: com.lihaoyi#upickle_sjs0.6_2.11;0.4.4
 [debug] 	found com.lihaoyi#upickle_sjs0.6_2.11;0.4.4 in sbt-chain
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#upickle_sjs0.6_2.11;0.4.4 [compile->runtime]
@@ -56,12 +56,29 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#upickle_sjs0.6_2.11;0.4.4 [compile->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->default(compile)]
 [info] Resolving com.lihaoyi#derive_sjs0.6_2.11;0.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a23fd9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bce92
 [debug] sbt-chain: module revision found in cache: com.lihaoyi#derive_sjs0.6_2.11;0.4.4
 [debug] 	found com.lihaoyi#derive_sjs0.6_2.11;0.4.4 in sbt-chain
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->default(compile)]
+[info] Resolving com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@82fc40
+[debug] sbt-chain: module revision found in cache: com.lihaoyi#autowire_sjs0.6_2.11;0.2.6
+[debug] 	found com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 in sbt-chain
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fbf156
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
+[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [compile]
@@ -93,6 +110,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile]
@@ -121,6 +146,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
@@ -153,6 +186,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile]
@@ -181,6 +222,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->default(compile)]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->compile]
@@ -209,9 +258,17 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [test->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [test->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [test->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->default(compile)]
 [info] Resolving org.scala-js#scalajs-test-interface_2.11;0.6.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e3ed69
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fc2f99
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-test-interface_2.11;0.6.13
 [debug] 	found org.scala-js#scalajs-test-interface_2.11;0.6.13 in sbt-chain
 [debug] 	[0.6.13] org.scala-js#scalajs-test-interface_2.11;0.6.13
@@ -253,6 +310,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile-internal->default(compile)]
@@ -283,6 +348,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile-internal->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile-internal->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile-internal->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile-internal->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile-internal->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile-internal->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile-internal->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile-internal->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [runtime-internal]
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
@@ -315,6 +388,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile]
@@ -343,6 +424,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime-internal->default(compile)]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime-internal->runtime]
@@ -372,6 +461,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime-internal->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime-internal->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime-internal->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime-internal->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime-internal->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime-internal->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [test-internal]
 [debug] == resolving dependencies for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT [test]
@@ -405,6 +502,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile]
@@ -433,6 +538,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [runtime->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [runtime->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->default(compile)]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->compile]
@@ -461,6 +574,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [test->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [test->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [test->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->default(compile)]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->compile]
@@ -495,6 +616,14 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [test-internal->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [test-internal->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_sjs0.6_2.11;0.4.4 [test-internal->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test-internal->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test-internal->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_sjs0.6_2.11;0.2.6 [test-internal->master]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test-internal->runtime]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test-internal->compile]
+[debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test-internal->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test-internal->default(compile)]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test-internal->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test-internal->compile]
@@ -512,7 +641,7 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.5;0.6.13 [plugin->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.5 [plugin->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28056c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f0735
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.5
 [debug] 	found org.scala-lang#scala-compiler;2.11.5 in sbt-chain
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.5 [plugin->runtime]
@@ -520,7 +649,7 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.5 [plugin->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.5 [plugin->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1768a20
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a2a1a1
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.5
 [debug] 	found org.scala-lang#scala-library;2.11.5 in sbt-chain
 [debug] 	[2.11.5] org.scala-lang#scala-library;2.11.5
@@ -529,7 +658,7 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.5 [plugin->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.5 [plugin->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a597
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9220c6
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.5
 [debug] 	found org.scala-lang#scala-reflect;2.11.5 in sbt-chain
 [debug] 	[2.11.5] org.scala-lang#scala-reflect;2.11.5
@@ -538,7 +667,7 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.5 [plugin->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [plugin->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8f02a0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15301bc
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [plugin->runtime]
@@ -546,7 +675,7 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [plugin->master]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [plugin->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@125eec2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c998fa
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [plugin->runtime]
@@ -583,26 +712,8 @@
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->jline#jline;2.12 [scala-tool->default(compile)]
 [info] Resolving jline#jline;2.12 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12 {scala-tool=[default(compile)]}
-[info] Resolving jline#jline;2.12 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: jline#jline;2.12 {scala-tool=[default(compile)]}
-[debug] 		tried C:\Users\alexa\.ivy2\local\jline\jline\2.12\ivys\ivy.xml
-[debug] 	local: no ivy file found for jline#jline;2.12
-[debug] 		tried C:\Users\alexa\.activator\repository\jline\jline\2.12\ivys\ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for jline#jline;2.12
-[debug] 		tried C:\Users\alexa\github\typesafe-activator-1.3.12\activator-dist-1.3.12\repository\jline\jline\2.12\ivys\ivy.xml
-[debug] 	activator-local: no ivy file found for jline#jline;2.12
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom
-[debug] 	public: found md file for jline#jline;2.12
-[debug] 		=> https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom (2.12)
-[debug] downloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom
-[debug] 	[SUCCESSFUL ] jline#jline;2.12!jline.pom(pom.original) (69ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 	found jline#jline;2.12 in public
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12
+[debug] 	found jline#jline;2.12 in sbt-chain
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->jline#jline;2.12 [scala-tool->runtime]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->jline#jline;2.12 [scala-tool->compile]
 [debug] == resolving dependencies app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT->jline#jline;2.12 [scala-tool->master]
@@ -680,6 +791,18 @@
 [debug] 	[NOT REQUIRED] com.lihaoyi#upickle_sjs0.6_2.11;0.4.4!upickle_sjs0.6_2.11.jar
 [debug] 	[NOT REQUIRED] com.lihaoyi#derive_sjs0.6_2.11;0.4.4!derive_sjs0.6_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.lihaoyi#derive_sjs0.6_2.11;0.4.4!derive_sjs0.6_2.11.jar
+[debug] 		tried C:\Users\alexa\.ivy2\local\com.lihaoyi\autowire_sjs0.6_2.11\0.2.6\srcs\autowire_sjs0.6_2.11-sources.jar
+[debug] 	[NOT REQUIRED] com.lihaoyi#autowire_sjs0.6_2.11;0.2.6!autowire_sjs0.6_2.11.jar
+[debug] 		tried C:\Users\alexa\.activator\repository\com.lihaoyi\autowire_sjs0.6_2.11\0.2.6\srcs\autowire_sjs0.6_2.11-sources.jar
+[debug] 		tried C:\Users\alexa\github\typesafe-activator-1.3.12\activator-dist-1.3.12\repository\com.lihaoyi\autowire_sjs0.6_2.11\0.2.6\srcs\autowire_sjs0.6_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/lihaoyi/autowire_sjs0.6_2.11/0.2.6/autowire_sjs0.6_2.11-0.2.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/lihaoyi/autowire_sjs0.6_2.11/0.2.6/autowire_sjs0.6_2.11-0.2.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/autowire_sjs0.6_2.11/0.2.6/autowire_sjs0.6_2.11-0.2.6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/autowire_sjs0.6_2.11/0.2.6/autowire_sjs0.6_2.11-0.2.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/autowire_sjs0.6_2.11/0.2.6/autowire_sjs0.6_2.11-0.2.6-sources.jar
+[info] 	[SUCCESSFUL ] com.lihaoyi#autowire_sjs0.6_2.11;0.2.6!autowire_sjs0.6_2.11.jar(src) (100ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.11;0.6.13!scalajs-test-interface_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.11;0.6.13!scalajs-test-interface_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.5;0.6.13!scalajs-compiler_2.11.5.jar(src)
@@ -701,7 +824,7 @@
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src)
-[debug] :: resolution report :: resolve 269ms :: artifacts dl 31ms
+[debug] :: resolution report :: resolve 110ms :: artifacts dl 177ms
 [debug] 	report for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT compile produced in C:\Users\alexa\github\scala-tutorials\games\app\js\target\resolution-cache\reports\app-app$sources_sjs0.6_2.11-compile.xml
 [debug] 	report for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in C:\Users\alexa\github\scala-tutorials\games\app\js\target\resolution-cache\reports\app-app$sources_sjs0.6_2.11-runtime.xml
 [debug] 	report for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT test produced in C:\Users\alexa\github\scala-tutorials\games\app\js\target\resolution-cache\reports\app-app$sources_sjs0.6_2.11-test.xml
@@ -716,4 +839,4 @@
 [debug] 	report for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT pom produced in C:\Users\alexa\github\scala-tutorials\games\app\js\target\resolution-cache\reports\app-app$sources_sjs0.6_2.11-pom.xml
 [debug] 	report for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\alexa\github\scala-tutorials\games\app\js\target\resolution-cache\reports\app-app$sources_sjs0.6_2.11-scala-tool.xml
 [debug] 	report for app#app$sources_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in C:\Users\alexa\github\scala-tutorials\games\app\js\target\resolution-cache\reports\app-app$sources_sjs0.6_2.11-phantom-js-jetty.xml
-[debug] 	resolve done (269ms resolve - 31ms download)
+[debug] 	resolve done (110ms resolve - 177ms download)

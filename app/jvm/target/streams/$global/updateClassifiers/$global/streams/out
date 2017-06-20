@@ -1,3 +1,4 @@
+[debug] no default cache defined: set to C:\Users\alexa\.ivy2\cache
 [debug] :: resolving dependencies :: app#app$sources_2.11;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6,7 +7,7 @@
 [debug] == resolving dependencies for app#app$sources_2.11;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_2.11;0.6.2 [compile->default(compile)]
 [info] Resolving com.lihaoyi#scalatags_2.11;0.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1652f18
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6eb23f
 [debug] sbt-chain: module revision found in cache: com.lihaoyi#scalatags_2.11;0.6.2
 [debug] 	found com.lihaoyi#scalatags_2.11;0.6.2 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_2.11;0.6.2 [compile->runtime]
@@ -14,7 +15,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_2.11;0.6.2 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@187af62
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ccb409
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -23,7 +24,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#sourcecode_2.11;0.1.3 [compile->default(compile)]
 [info] Resolving com.lihaoyi#sourcecode_2.11;0.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@696e5a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4478e6
 [debug] sbt-chain: module revision found in cache: com.lihaoyi#sourcecode_2.11;0.1.3
 [debug] 	found com.lihaoyi#sourcecode_2.11;0.1.3 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#sourcecode_2.11;0.1.3 [compile->runtime]
@@ -31,7 +32,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#sourcecode_2.11;0.1.3 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#upickle_2.11;0.4.4 [compile->default(compile)]
 [info] Resolving com.lihaoyi#upickle_2.11;0.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@89da2c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e1c427
 [debug] sbt-chain: module revision found in cache: com.lihaoyi#upickle_2.11;0.4.4
 [debug] 	found com.lihaoyi#upickle_2.11;0.4.4 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#upickle_2.11;0.4.4 [compile->runtime]
@@ -39,7 +40,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#upickle_2.11;0.4.4 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_2.11;0.4.4 [compile->default(compile)]
 [info] Resolving com.lihaoyi#derive_2.11;0.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1874258
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1956b8a
 [debug] sbt-chain: module revision found in cache: com.lihaoyi#derive_2.11;0.4.4
 [debug] 	found com.lihaoyi#derive_2.11;0.4.4 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_2.11;0.4.4 [compile->runtime]
@@ -47,15 +48,32 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#derive_2.11;0.4.4 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->default(compile)]
 [info] Resolving org.spire-math#jawn-parser_2.11;0.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f907bc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16f5838
 [debug] sbt-chain: module revision found in cache: org.spire-math#jawn-parser_2.11;0.10.3
 [debug] 	found org.spire-math#jawn-parser_2.11;0.10.3 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->default(compile)]
+[info] Resolving com.lihaoyi#autowire_2.11;0.2.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53ff54
+[debug] sbt-chain: module revision found in cache: com.lihaoyi#autowire_2.11;0.2.6
+[debug] 	found com.lihaoyi#autowire_2.11;0.2.6 in sbt-chain
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@208e6a
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
+[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-http-experimental_2.11;2.4.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a0800
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1efbe9d
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-experimental_2.11;2.4.11
 [debug] 	found com.typesafe.akka#akka-http-experimental_2.11;2.4.11 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->runtime]
@@ -63,7 +81,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-core_2.11;2.4.11 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-http-core_2.11;2.4.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1808dfe
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e60691
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-core_2.11;2.4.11
 [debug] 	found com.typesafe.akka#akka-http-core_2.11;2.4.11 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-core_2.11;2.4.11 [compile->runtime]
@@ -71,7 +89,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-core_2.11;2.4.11 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-stream_2.11;2.4.11 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-stream_2.11;2.4.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fda3ce
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@150478e
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream_2.11;2.4.11
 [debug] 	found com.typesafe.akka#akka-stream_2.11;2.4.11 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-stream_2.11;2.4.11 [compile->runtime]
@@ -79,7 +97,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-stream_2.11;2.4.11 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-akka_2.11;0.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@218b80
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@177e499
 [debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-akka_2.11;0.2.1
 [debug] 	found com.typesafe#ssl-config-akka_2.11;0.2.1 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->runtime]
@@ -87,7 +105,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-core_2.11;0.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fba35d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cfa864
 [debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-core_2.11;0.2.1
 [debug] 	found com.typesafe#ssl-config-core_2.11;0.2.1 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->runtime]
@@ -95,7 +113,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8af81b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67bb43
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
@@ -103,7 +121,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
 [info] Resolving org.reactivestreams#reactive-streams;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11c1a53
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@106d8a7
 [debug] sbt-chain: module revision found in cache: org.reactivestreams#reactive-streams;1.0.0
 [debug] 	found org.reactivestreams#reactive-streams;1.0.0 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
@@ -111,7 +129,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-parsing_2.11;2.4.11 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-parsing_2.11;2.4.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b59df4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a7d92f
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-parsing_2.11;2.4.11
 [debug] 	found com.typesafe.akka#akka-parsing_2.11;2.4.11 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-parsing_2.11;2.4.11 [compile->runtime]
@@ -119,7 +137,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-parsing_2.11;2.4.11 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.11;2.4.12 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ac3380
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f7fe3
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.12
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.12 in sbt-chain
 [debug] 	[2.4.12] com.typesafe.akka#akka-actor_2.11;2.4.12
@@ -128,7 +146,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.11;2.4.12 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e5ed14
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@118f4a0
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe#config;1.3.0 [compile->runtime]
@@ -136,7 +154,7 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@949a7f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1eb71da
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0
 [debug] 	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
@@ -144,53 +162,17 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->default(compile)]
 [info] Resolving org.webjars#bootstrap;3.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10c267f
-[info] Resolving org.webjars#bootstrap;3.2.0 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@10c267f
-[debug] 		tried C:\Users\alexa\.ivy2\local\org.webjars\bootstrap\3.2.0\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.webjars#bootstrap;3.2.0
-[debug] 		tried C:\Users\alexa\.activator\repository\org.webjars\bootstrap\3.2.0\ivys\ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.webjars#bootstrap;3.2.0
-[debug] 		tried C:\Users\alexa\github\typesafe-activator-1.3.12\activator-dist-1.3.12\repository\org.webjars\bootstrap\3.2.0\ivys\ivy.xml
-[debug] 	activator-local: no ivy file found for org.webjars#bootstrap;3.2.0
-[debug] 		tried https://repo1.maven.org/maven2/org/webjars/bootstrap/3.2.0/bootstrap-3.2.0.pom
-[debug] 	public: found md file for org.webjars#bootstrap;3.2.0
-[debug] 		=> https://repo1.maven.org/maven2/org/webjars/bootstrap/3.2.0/bootstrap-3.2.0.pom (3.2.0)
-[debug] downloading https://repo1.maven.org/maven2/org/webjars/bootstrap/3.2.0/bootstrap-3.2.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/bootstrap/3.2.0/bootstrap-3.2.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/bootstrap/3.2.0/bootstrap-3.2.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/bootstrap/3.2.0/bootstrap-3.2.0.pom
-[debug] 	[SUCCESSFUL ] org.webjars#bootstrap;3.2.0!bootstrap.pom(pom.original) (99ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 	found org.webjars#bootstrap;3.2.0 in public
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1be8b30
+[debug] sbt-chain: module revision found in cache: org.webjars#bootstrap;3.2.0
+[debug] 	found org.webjars#bootstrap;3.2.0 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.webjars#jquery;1.11.1 [compile->default(compile)]
 [info] Resolving org.webjars#jquery;1.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16aa2e3
-[info] Resolving org.webjars#jquery;1.11.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@16aa2e3
-[debug] 		tried C:\Users\alexa\.ivy2\local\org.webjars\jquery\1.11.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.webjars#jquery;1.11.1
-[debug] 		tried C:\Users\alexa\.activator\repository\org.webjars\jquery\1.11.1\ivys\ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for org.webjars#jquery;1.11.1
-[debug] 		tried C:\Users\alexa\github\typesafe-activator-1.3.12\activator-dist-1.3.12\repository\org.webjars\jquery\1.11.1\ivys\ivy.xml
-[debug] 	activator-local: no ivy file found for org.webjars#jquery;1.11.1
-[debug] 		tried https://repo1.maven.org/maven2/org/webjars/jquery/1.11.1/jquery-1.11.1.pom
-[debug] 	public: found md file for org.webjars#jquery;1.11.1
-[debug] 		=> https://repo1.maven.org/maven2/org/webjars/jquery/1.11.1/jquery-1.11.1.pom (1.11.1)
-[debug] downloading https://repo1.maven.org/maven2/org/webjars/jquery/1.11.1/jquery-1.11.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/jquery/1.11.1/jquery-1.11.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/jquery/1.11.1/jquery-1.11.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/jquery/1.11.1/jquery-1.11.1.pom
-[debug] 	[SUCCESSFUL ] org.webjars#jquery;1.11.1!jquery.pom(pom.original) (100ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 	found org.webjars#jquery;1.11.1 in public
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1adeb4b
+[debug] sbt-chain: module revision found in cache: org.webjars#jquery;1.11.1
+[debug] 	found org.webjars#jquery;1.11.1 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.webjars#jquery;1.11.1 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.webjars#jquery;1.11.1 [compile->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.webjars#jquery;1.11.1 [compile->master]
@@ -221,6 +203,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->compile]
@@ -297,6 +287,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->compile]
@@ -377,6 +375,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->compile]
@@ -453,6 +459,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->compile]
@@ -529,6 +543,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [test->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [test->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [test->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [test->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [test->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [test->compile]
@@ -612,6 +634,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->compile]
@@ -690,6 +720,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile-internal->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile-internal->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile-internal->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile-internal->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile-internal->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile-internal->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile-internal->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile-internal->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile-internal->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile-internal->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile-internal->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile-internal->compile]
@@ -770,6 +808,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->compile]
@@ -846,6 +892,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->compile]
@@ -923,6 +977,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime-internal->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime-internal->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime-internal->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime-internal->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime-internal->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime-internal->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime-internal->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime-internal->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime-internal->compile]
@@ -1004,6 +1066,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [compile->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [compile->compile]
@@ -1080,6 +1150,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [runtime->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [runtime->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [runtime->compile]
@@ -1156,6 +1234,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [test->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [test->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [test->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [test->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [test->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [test->compile]
@@ -1234,6 +1320,14 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [test-internal->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [test-internal->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.spire-math#jawn-parser_2.11;0.10.3 [test-internal->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test-internal->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test-internal->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.lihaoyi#autowire_2.11;0.2.6 [test-internal->master]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test-internal->default(compile)]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test-internal->runtime]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test-internal->compile]
+[debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [test-internal->master]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [test-internal->default(compile)]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [test-internal->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->com.typesafe.akka#akka-http-experimental_2.11;2.4.11 [test-internal->compile]
@@ -1341,26 +1435,8 @@
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12 [scala-tool->default(compile)]
 [info] Resolving jline#jline;2.12 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12 {scala-tool=[default(compile)]}
-[info] Resolving jline#jline;2.12 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: jline#jline;2.12 {scala-tool=[default(compile)]}
-[debug] 		tried C:\Users\alexa\.ivy2\local\jline\jline\2.12\ivys\ivy.xml
-[debug] 	local: no ivy file found for jline#jline;2.12
-[debug] 		tried C:\Users\alexa\.activator\repository\jline\jline\2.12\ivys\ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for jline#jline;2.12
-[debug] 		tried C:\Users\alexa\github\typesafe-activator-1.3.12\activator-dist-1.3.12\repository\jline\jline\2.12\ivys\ivy.xml
-[debug] 	activator-local: no ivy file found for jline#jline;2.12
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom
-[debug] 	public: found md file for jline#jline;2.12
-[debug] 		=> https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom (2.12)
-[debug] downloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom
-[debug] 	[SUCCESSFUL ] jline#jline;2.12!jline.pom(pom.original) (84ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 	found jline#jline;2.12 in public
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12
+[debug] 	found jline#jline;2.12 in sbt-chain
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12 [scala-tool->runtime]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12 [scala-tool->compile]
 [debug] == resolving dependencies app#app$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12 [scala-tool->master]
@@ -1378,6 +1454,18 @@
 [debug] 	[NOT REQUIRED] com.lihaoyi#derive_2.11;0.4.4!derive_2.11.jar
 [debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.11;0.10.3!jawn-parser_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.11;0.10.3!jawn-parser_2.11.jar
+[debug] 	[NOT REQUIRED] com.lihaoyi#autowire_2.11;0.2.6!autowire_2.11.jar
+[debug] 		tried C:\Users\alexa\.ivy2\local\com.lihaoyi\autowire_2.11\0.2.6\srcs\autowire_2.11-sources.jar
+[debug] 		tried C:\Users\alexa\.activator\repository\com.lihaoyi\autowire_2.11\0.2.6\srcs\autowire_2.11-sources.jar
+[debug] 		tried C:\Users\alexa\github\typesafe-activator-1.3.12\activator-dist-1.3.12\repository\com.lihaoyi\autowire_2.11\0.2.6\srcs\autowire_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/lihaoyi/autowire_2.11/0.2.6/autowire_2.11-0.2.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/lihaoyi/autowire_2.11/0.2.6/autowire_2.11-0.2.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/autowire_2.11/0.2.6/autowire_2.11-0.2.6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/autowire_2.11/0.2.6/autowire_2.11-0.2.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/autowire_2.11/0.2.6/autowire_2.11-0.2.6-sources.jar
+[info] 	[SUCCESSFUL ] com.lihaoyi#autowire_2.11;0.2.6!autowire_2.11.jar(src) (250ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-experimental_2.11;2.4.11!akka-http-experimental_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-experimental_2.11;2.4.11!akka-http-experimental_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.11;2.4.11!akka-http-core_2.11.jar(src)
@@ -1410,7 +1498,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12!jline.jar(src)
-[debug] :: resolution report :: resolve 1105ms :: artifacts dl 47ms
+[debug] :: resolution report :: resolve 266ms :: artifacts dl 360ms
 [debug] 	report for app#app$sources_2.11;0.1-SNAPSHOT compile produced in C:\Users\alexa\github\scala-tutorials\games\app\jvm\target\resolution-cache\reports\app-app$sources_2.11-compile.xml
 [debug] 	report for app#app$sources_2.11;0.1-SNAPSHOT runtime produced in C:\Users\alexa\github\scala-tutorials\games\app\jvm\target\resolution-cache\reports\app-app$sources_2.11-runtime.xml
 [debug] 	report for app#app$sources_2.11;0.1-SNAPSHOT test produced in C:\Users\alexa\github\scala-tutorials\games\app\jvm\target\resolution-cache\reports\app-app$sources_2.11-test.xml
@@ -1424,4 +1512,4 @@
 [debug] 	report for app#app$sources_2.11;0.1-SNAPSHOT docs produced in C:\Users\alexa\github\scala-tutorials\games\app\jvm\target\resolution-cache\reports\app-app$sources_2.11-docs.xml
 [debug] 	report for app#app$sources_2.11;0.1-SNAPSHOT pom produced in C:\Users\alexa\github\scala-tutorials\games\app\jvm\target\resolution-cache\reports\app-app$sources_2.11-pom.xml
 [debug] 	report for app#app$sources_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\alexa\github\scala-tutorials\games\app\jvm\target\resolution-cache\reports\app-app$sources_2.11-scala-tool.xml
-[debug] 	resolve done (1105ms resolve - 47ms download)
+[debug] 	resolve done (266ms resolve - 360ms download)

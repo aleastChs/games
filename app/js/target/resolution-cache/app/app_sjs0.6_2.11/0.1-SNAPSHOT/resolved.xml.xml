@@ -4,7 +4,7 @@
 		module="app_sjs0.6_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170619154216"
+		publication="20170620074528"
 	>
 		<description>
 		app
@@ -42,6 +42,7 @@
 		<dependency org="org.scala-js" name="scalajs-test-interface_2.11" rev="0.6.13" conf="test->default(compile)"/>
 		<dependency org="com.lihaoyi" name="scalatags_sjs0.6_2.11" rev="0.6.2" conf="compile->default(compile)"/>
 		<dependency org="com.lihaoyi" name="upickle_sjs0.6_2.11" rev="0.4.4" conf="compile->default(compile)"/>
+		<dependency org="com.lihaoyi" name="autowire_sjs0.6_2.11" rev="0.2.6" conf="compile->default(compile)"/>
 		<dependency org="org.scala-js" name="scalajs-dom_sjs0.6_2.11" rev="0.9.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

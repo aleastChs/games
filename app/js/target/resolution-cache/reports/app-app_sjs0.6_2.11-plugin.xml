@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="plugin"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
-		date="20170619154216"/>
+		date="20170620074529"/>
 	<dependencies>
 		<module organisation="org.scala-js" name="scalajs-compiler_2.11.5">
 			<revision name="0.6.13" status="release" pubdate="20161013235036" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-compiler/0.6.13/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
