@@ -1,68 +1,126 @@
 package games
-import scala.scalajs
-import scalajs.js
-import js.annotation.JSExport
+
 import org.scalajs.dom
 import dom.html
-import scalatags.JsDom
-import JsDom.all._
+import concurrent._
+import async.Async._
+import scalajs.js.annotation.JSExport
+import scalajs.concurrent.JSExecutionContext.Implicits.queue
 
-import scala.util.Random
 
 
 @JSExport
 object Game extends{
+
   @JSExport
-  def main(target: html.Div) = {
-    val box = input(
-      `type`:="text",
-      placeholder:="Type here!"
-    ).render
+  def init(canvas: html.Canvas) = {
+    val renderer = canvas.getContext("2d")
+      .asInstanceOf[dom.CanvasRenderingContext2D]
 
+    canvas.style.backgroundColor = "#f8f8f8"
+    canvas.height = canvas.parentElement.clientHeight
+    canvas.width = canvas.parentElement.clientWidth
 
-    val listings = Seq(
-      "Apple", "Apricot", "Banana", "Cherry",
-      "Mango", "Mangosteen", "Mandarin",
-      "Grape", "Grapefruit", "Guava"
-    )
+    renderer.lineWidth = 5
+    renderer.strokeStyle = "red"
+    renderer.fillStyle = "cyan"
+    renderer
+  }
 
-    def renderListings = ul(
-      for {
-        fruit <- listings
-        if fruit.toLowerCase.startsWith(
-          box.value.toLowerCase
+  @JSExport
+  def main0(canvas: html.Canvas) = {
+    val renderer = init(canvas)
+    // traditional
+    def rect = canvas.getBoundingClientRect()
+
+    var dragState = 0
+
+    canvas.onmousemove ={(e: dom.MouseEvent) =>
+      if (dragState == 1) {
+        renderer.lineTo(
+          e.clientX - rect.left,
+          e.clientY - rect.top
         )
-      } yield {
-        val (first, last) = fruit.splitAt(
-          box.value.length
-        )
-        li(
-          span(
-            backgroundColor:="yellow",
-            first
-          ),
-          last
+        renderer.stroke()
+      }
+    }
+    canvas.onmouseup = {(e: dom.MouseEvent) =>
+      if(dragState == 1) {
+        renderer.fill()
+        dragState = 2
+      }else if (dragState == 2){
+        renderer.clearRect(0, 0, 1000, 1000)
+        dragState = 0
+      }
+    }
+    canvas.onmousedown ={(e: dom.MouseEvent) =>
+      if (dragState == 0) {
+        dragState = 1
+        renderer.beginPath()
+        renderer.moveTo(
+          e.clientX - rect.left,
+          e.clientY - rect.top
         )
       }
-    ).render
-
-    val output = div(renderListings).render
-
-    box.onkeyup = (e: dom.Event) => {
-      output.innerHTML = ""
-      output.appendChild(renderListings)
     }
+  }
+  class Channel[T](init: (T => Unit) => Unit){
+    init(update)
+    private[this] var value: Promise[T] = null
+    def apply(): Future[T] = {
+      value = Promise[T]()
+      value.future
+    }
+    def update(t: T): Unit = {
+      if (value != null && !value.isCompleted) value.success(t)
+    }
+    def |(other: Channel[T]): Future[T] = {
+      val p = Promise[T]()
+      for{
+        f <- Seq(other(), this())
+        t <- f
+      } p.trySuccess(t)
+      p.future
+    }
+  }
 
-    target.appendChild(
-      div(
-        h1("Search Box!"),
-        p(
-          "Type here to filter " +
-            "the list of things below!"
-        ),
-        div(box),
-        output
-      ).render
-    )
+  @JSExport
+  def main(canvas: html.Canvas) = {
+    val renderer = init(canvas)
+    // async
+    def rect = canvas.getBoundingClientRect()
+
+    type ME = dom.MouseEvent
+    val mousemove =
+      new Channel[ME](canvas.onmousemove = _)
+    val mouseup =
+      new Channel[ME](canvas.onmouseup = _)
+    val mousedown =
+      new Channel[ME](canvas.onmousedown = _)
+
+    async{
+      while(true){
+        val start = await(mousedown())
+        renderer.beginPath()
+        renderer.moveTo(
+          start.clientX - rect.left,
+          start.clientY - rect.top
+        )
+
+        var res = await(mousemove | mouseup)
+        while(res.`type` == "mousemove"){
+          renderer.lineTo(
+            res.clientX - rect.left,
+            res.clientY - rect.top
+          )
+          renderer.stroke()
+          res = await(mousemove | mouseup)
+        }
+
+        renderer.fill()
+        await(mouseup())
+        renderer.clearRect(0, 0, 1000, 1000)
+      }
+    }
   }
 }

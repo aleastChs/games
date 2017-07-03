@@ -1,16 +1,16 @@
 [0m[[0minfo[0m] [0mFast optimizing C:\Users\alexa\github\scala-tutorials\games\target\scala-2.11\games-fastopt.js[0m
-[0m[[0mdebug[0m] [0mLinker: Compute reachability: 141270 us[0m
-[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 23956 us[0m
-[0m[[0mdebug[0m] [0mBasic Linking: 173761 us[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 131675 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 68347 us[0m
+[0m[[0mdebug[0m] [0mBasic Linking: 205145 us[0m
 [0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: false[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 12310 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 99 methods.[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 16081 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: 30624 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 150429 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 3981 us[0m
-[0m[[0mdebug[0m] [0mRefiner: 154571 us[0m
-[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 296 -- invalidated: 4[0m
-[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 1142 -- invalidated: 59[0m
-[0m[[0mdebug[0m] [0mEmitter (write output): 38688 us[0m
-[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 5 -- invalidated: 1 -- trees read: 3[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 58049 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 2052 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 197654 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 259721 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 103036 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 5683 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 108879 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 40 -- invalidated: 296[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 97 -- invalidated: 1197[0m
+[0m[[0mdebug[0m] [0mEmitter (write output): 201978 us[0m
+[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 9 -- invalidated: 4 -- trees read: 231[0m
